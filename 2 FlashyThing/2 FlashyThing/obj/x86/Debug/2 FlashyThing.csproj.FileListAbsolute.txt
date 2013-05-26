@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\bin\Debug\2 FlashyThing.exe
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\bin\Debug\2 FlashyThing.pdb
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\_2_FlashyThing.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\_2_FlashyThing.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\2 FlashyThing.exe
+E:\cygwin\home\Bobby\csharpstudy\2 FlashyThing\2 FlashyThing\obj\x86\Debug\2 FlashyThing.pdb
