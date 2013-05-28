@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\chapter3_pool_puzzle.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\chapter3_pool_puzzle.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\bin\Debug\chapter3 pool puzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\bin\Debug\chapter3 pool puzzle.pdb
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\chapter3 pool puzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\chapter3 pool puzzle\chapter3 pool puzzle\obj\x86\Debug\chapter3 pool puzzle.pdb

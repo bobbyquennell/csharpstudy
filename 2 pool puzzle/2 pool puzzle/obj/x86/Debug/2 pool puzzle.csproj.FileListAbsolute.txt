@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\bin\Debug\2 pool puzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\bin\Debug\2 pool puzzle.pdb
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\_2_pool_puzzle.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\_2_pool_puzzle.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\2 pool puzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\2 pool puzzle\2 pool puzzle\obj\x86\Debug\2 pool puzzle.pdb
