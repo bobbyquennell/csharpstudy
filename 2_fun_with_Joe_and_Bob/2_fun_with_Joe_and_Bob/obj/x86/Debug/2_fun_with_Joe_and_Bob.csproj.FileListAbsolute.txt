@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\_2_fun_with_Joe_and_Bob.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\_2_fun_with_Joe_and_Bob.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\bin\Debug\2_fun_with_Joe_and_Bob.exe
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\bin\Debug\2_fun_with_Joe_and_Bob.pdb
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\2_fun_with_Joe_and_Bob.exe
+E:\cygwin\home\Bobby\csharpstudy\2_fun_with_Joe_and_Bob\2_fun_with_Joe_and_Bob\obj\x86\Debug\2_fun_with_Joe_and_Bob.pdb
