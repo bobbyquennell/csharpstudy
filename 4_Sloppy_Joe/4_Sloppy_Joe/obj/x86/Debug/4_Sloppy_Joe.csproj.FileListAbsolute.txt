@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\_4_Sloppy_Joe.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\_4_Sloppy_Joe.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\bin\Debug\4_Sloppy_Joe.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\bin\Debug\4_Sloppy_Joe.pdb
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\4_Sloppy_Joe.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Sloppy_Joe\4_Sloppy_Joe\obj\x86\Debug\4_Sloppy_Joe.pdb
