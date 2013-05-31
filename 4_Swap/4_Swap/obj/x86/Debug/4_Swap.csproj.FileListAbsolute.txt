@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\bin\Debug\4_Swap.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\bin\Debug\4_Swap.pdb
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\_4_Swap.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\_4_Swap.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\4_Swap.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Swap\4_Swap\obj\x86\Debug\4_Swap.pdb
