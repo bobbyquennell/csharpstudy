@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\bin\Debug\4_Hit_the_Keys.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\bin\Debug\4_Hit_the_Keys.pdb
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\_4_Hit_the_Keys.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\_4_Hit_the_Keys.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\4_Hit_the_Keys.exe
+E:\cygwin\home\Bobby\csharpstudy\4_Hit_the_Keys\4_Hit_the_Keys\obj\x86\Debug\4_Hit_the_Keys.pdb
