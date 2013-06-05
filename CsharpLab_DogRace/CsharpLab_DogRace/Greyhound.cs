@@ -8,7 +8,7 @@ namespace CsharpLab_DogRace
 {
     class Greyhound
     {
-        public int StartinPositon;// where my picturebox starts
+        public int StartingPositon;// where my picturebox starts
         public int RacetrackLength;// how long the racetrack is 
         public PictureBox MyPictureBox = null;// My picturebox object
         public int Location = 0;// my location on the racetrack
@@ -18,16 +18,31 @@ namespace CsharpLab_DogRace
         public bool Run()
         {
             //move forward either 1,2,3 or 4 spaces at random
-            Location += Randomizer.Next(1, 4);
+            int distance = Randomizer.Next(1, 4);
+            Location += distance;
             //Update the position of my PictureBox on the form
+            Point p = MyPictureBox.Location;
+            p.X += distance;
+            MyPictureBox.Location = p;
             
             // Return true if I won the race
-            return true;
+            if (Location == RacetrackLength)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         public void TakeStartingPosition()
         {
             // Reset my location to the start line
-            Location = 0;
+            Location = StartingPositon;
+
+            Point p = MyPictureBox.Location;
+            p.X = StartingPositon;
+            MyPictureBox.Location = p;
         }
 
     }
