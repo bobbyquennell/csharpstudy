@@ -1,0 +1,3 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\CsharpLab_DogRace\CsharpLab_DogRace\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\CsharpLab_DogRace\CsharpLab_DogRace\obj\Release\CsharpLab_DogRace.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\CsharpLab_DogRace\CsharpLab_DogRace\obj\Release\CsharpLab_DogRace.csproj.GenerateResource.Cache
