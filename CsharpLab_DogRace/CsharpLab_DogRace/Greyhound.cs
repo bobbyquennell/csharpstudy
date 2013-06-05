@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Forms;
 using System.Drawing;
 
 namespace CsharpLab_DogRace
@@ -19,7 +20,9 @@ namespace CsharpLab_DogRace
             //move forward either 1,2,3 or 4 spaces at random
             Location += Randomizer.Next(1, 4);
             //Update the position of my PictureBox on the form
+            
             // Return true if I won the race
+            return true;
         }
         public void TakeStartingPosition()
         {

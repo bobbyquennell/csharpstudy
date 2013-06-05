@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CsharpLab_DogRace">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\bwang\workspace\csharpstudy\CsharpLab_DogRace\CsharpLab_DogRace.sln">
+</Property><Property Name="Date" Value="Wednesday, June 05, 2013">
+</Property><Property Name="Time" Value="16:07 PM">
+</Property></Properties><Event ErrorLevel="0" Project="CsharpLab_DogRace" Source="CsharpLab_DogRace\CsharpLab_DogRace.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CsharpLab_DogRace" Source="CsharpLab_DogRace\CsharpLab_DogRace.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CsharpLab_DogRace.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CsharpLab_DogRace.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CsharpLab_DogRace" Source="CsharpLab_DogRace\CsharpLab_DogRace.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
