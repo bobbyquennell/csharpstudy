@@ -1,0 +1,18 @@
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.exe
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.pdb
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.exe
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.pdb
+E:\cygwin\home\Bobby\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Form1.resources
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.exe
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.pdb
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.exe
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.pdb
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Form1.resources
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Properties.Resources.resources
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.write.1.tlog
