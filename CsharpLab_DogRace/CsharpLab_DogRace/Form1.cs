@@ -25,6 +25,7 @@ namespace CsharpLab_DogRace
             {
                 dogs[i] = new Greyhound();
             }
+            CurrentBettor = bettors[0];
             bettors[0].Name = "Joe";
             bettors[0].MyRadioButton = JoeRadioButton;
             bettors[0].MyLabel = JoeBetLabel;
@@ -40,26 +41,28 @@ namespace CsharpLab_DogRace
             bettors[2].MyLabel = AlBetLabel;
             bettors[2].Cash = 45;
 
+            JoeRadioButton.Checked = true;
+
             dogs[0].MyPictureBox = PicBxDog1;
-            dogs[0].RacetrackLength = PicBxRacetrack.Width;
+            dogs[0].RacetrackLength = PicBxRacetrack.Width - dogs[0].MyPictureBox.Size.Width;
             dogs[0].StartingPositon = dogs[0].MyPictureBox.Location.X;
             dogs[0].Location = dogs[0].StartingPositon;
             dogs[0].Randomizer = my_Randomizer;
 
             dogs[1].MyPictureBox = PicBxDog2;
-            dogs[1].RacetrackLength = PicBxRacetrack.Width;
+            dogs[1].RacetrackLength = PicBxRacetrack.Width - dogs[1].MyPictureBox.Size.Width;
             dogs[1].StartingPositon = dogs[1].MyPictureBox.Location.X;
             dogs[1].Location = dogs[1].StartingPositon;
             dogs[1].Randomizer = my_Randomizer;
 
             dogs[2].MyPictureBox = PicBxDog3;
-            dogs[2].RacetrackLength = PicBxRacetrack.Width;
+            dogs[2].RacetrackLength = PicBxRacetrack.Width - dogs[2].MyPictureBox.Size.Width;
             dogs[2].StartingPositon = dogs[2].MyPictureBox.Location.X;
             dogs[2].Location = dogs[2].StartingPositon;
             dogs[2].Randomizer = my_Randomizer;
 
             dogs[3].MyPictureBox = PicBxDog4;
-            dogs[3].RacetrackLength = PicBxRacetrack.Width;
+            dogs[3].RacetrackLength = PicBxRacetrack.Width - dogs[3].MyPictureBox.Size.Width;
             dogs[3].StartingPositon = dogs[3].MyPictureBox.Location.X;
             dogs[3].Location = dogs[3].StartingPositon;
             dogs[3].Randomizer = my_Randomizer;
@@ -97,10 +100,6 @@ namespace CsharpLab_DogRace
             int Dog = (int)DogNumNumericUpDown.Value;
             CurrentBettor.PlaceBet(Amount, Dog);
             CurrentBettor.UpdateLabels();
-            for (int i = 0; i < 4; i++)
-            {
-                dogs[i].TakeStartingPosition();
-            }
 
         }
 
@@ -109,29 +108,43 @@ namespace CsharpLab_DogRace
             bool isWin = false;
             string msg = "";
             int dogWinner = 0;
+            Betbutton.Enabled = false;
             while (!isWin)
             {
                 for (int i = 0; i < 4 && !isWin; i++)
                 {
                     isWin = dogs[i].Run();
+                    
                     if (isWin)
                     {
                         dogWinner = i + 1;
                         msg = "We have a winner -dog #" + dogWinner;
                         MessageBox.Show(msg);
                     }
+
+                }
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(1);
+
+            }
+
+            if (isWin)
+            {
+                 for (int i = 0; i < 4; i++)
+                {
+                    dogs[i].TakeStartingPosition();
                 }
             }
-            //for (int i = 0; i < 4; i++)
-			//{
-            //    dogs[i].TakeStartingPosition();
-			//}
 
             for (int i = 0; i < 3; i++)
             {
                 bettors[i].Collect(dogWinner);
-                bettors[i].MyRadioButton.Text = bettors[i].Name + " has " + bettors[i].Cash + " bucks";
+                bettors[i].UpdateLabels();
+                bettors[i].ClearBet();
+                //bettors[i].MyRadioButton.Text = bettors[i].Name + " has " + bettors[i].Cash + " bucks";
+                
             }
+            Betbutton.Enabled = true;
 
         }
 

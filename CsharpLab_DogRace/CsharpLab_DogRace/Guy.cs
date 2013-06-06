@@ -20,7 +20,15 @@ namespace CsharpLab_DogRace
             // set my label to my bet's description. and the label on my
             // radio button to show my cash("Joe has 43 bucks")
             MyRadioButton.Text = Name + " has " + Cash + " bucks";
-            MyLabel.Text = MyBet.GetDescription();
+            if (MyBet != null)
+            {
+                MyLabel.Text = MyBet.GetDescription();
+            }
+            else
+            {
+                MyLabel.Text = Name + " hasn't placed a bet";
+            }
+            
         }
         public bool PlaceBet(int BetAmount, int DogNum)
         {
@@ -49,7 +57,11 @@ namespace CsharpLab_DogRace
         }
         public void Collect(int winner)
         { // Ask my bet to pay out
-            Cash += MyBet.Payout(winner);
+            if (MyBet != null)
+            {
+                Cash += MyBet.Payout(winner);
+            }
+
         }
     }
 }

@@ -72,9 +72,9 @@ namespace CsharpLab_DogRace
             // PicBxDog1
             // 
             this.PicBxDog1.Image = ((System.Drawing.Image)(resources.GetObject("PicBxDog1.Image")));
-            this.PicBxDog1.Location = new System.Drawing.Point(33, 42);
+            this.PicBxDog1.Location = new System.Drawing.Point(12, 37);
             this.PicBxDog1.Name = "PicBxDog1";
-            this.PicBxDog1.Size = new System.Drawing.Size(75, 20);
+            this.PicBxDog1.Size = new System.Drawing.Size(95, 28);
             this.PicBxDog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicBxDog1.TabIndex = 1;
             this.PicBxDog1.TabStop = false;
@@ -82,9 +82,9 @@ namespace CsharpLab_DogRace
             // PicBxDog2
             // 
             this.PicBxDog2.Image = ((System.Drawing.Image)(resources.GetObject("PicBxDog2.Image")));
-            this.PicBxDog2.Location = new System.Drawing.Point(33, 97);
+            this.PicBxDog2.Location = new System.Drawing.Point(12, 94);
             this.PicBxDog2.Name = "PicBxDog2";
-            this.PicBxDog2.Size = new System.Drawing.Size(75, 20);
+            this.PicBxDog2.Size = new System.Drawing.Size(95, 28);
             this.PicBxDog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicBxDog2.TabIndex = 2;
             this.PicBxDog2.TabStop = false;
@@ -92,9 +92,9 @@ namespace CsharpLab_DogRace
             // PicBxDog3
             // 
             this.PicBxDog3.Image = ((System.Drawing.Image)(resources.GetObject("PicBxDog3.Image")));
-            this.PicBxDog3.Location = new System.Drawing.Point(33, 153);
+            this.PicBxDog3.Location = new System.Drawing.Point(12, 158);
             this.PicBxDog3.Name = "PicBxDog3";
-            this.PicBxDog3.Size = new System.Drawing.Size(75, 20);
+            this.PicBxDog3.Size = new System.Drawing.Size(95, 28);
             this.PicBxDog3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicBxDog3.TabIndex = 3;
             this.PicBxDog3.TabStop = false;
@@ -102,9 +102,9 @@ namespace CsharpLab_DogRace
             // PicBxDog4
             // 
             this.PicBxDog4.Image = ((System.Drawing.Image)(resources.GetObject("PicBxDog4.Image")));
-            this.PicBxDog4.Location = new System.Drawing.Point(33, 216);
+            this.PicBxDog4.Location = new System.Drawing.Point(12, 212);
             this.PicBxDog4.Name = "PicBxDog4";
-            this.PicBxDog4.Size = new System.Drawing.Size(75, 20);
+            this.PicBxDog4.Size = new System.Drawing.Size(95, 28);
             this.PicBxDog4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicBxDog4.TabIndex = 4;
             this.PicBxDog4.TabStop = false;

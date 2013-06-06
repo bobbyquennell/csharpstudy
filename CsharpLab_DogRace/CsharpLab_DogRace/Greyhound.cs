@@ -26,7 +26,7 @@ namespace CsharpLab_DogRace
             MyPictureBox.Location = p;
             
             // Return true if I won the race
-            if (Location == RacetrackLength)
+            if (Location >= RacetrackLength)//Note: " Location == RacetrackLength" is a bug!!
             {
                 return true;
             }
