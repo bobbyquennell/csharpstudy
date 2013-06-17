@@ -30,5 +30,11 @@ namespace _5CowCalculator
             Console.WriteLine("I need {0} bags of feed for {1} cows",
                 farmer.BagsOfFeed, farmer.NumberOfCows);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //farmer.BagsOfFeed = 5; // private set method for: public int BagsOfFeed { get; private set; }
+            //if set method is private, then it cannot be used outside the object.
+        }
     }
 }
