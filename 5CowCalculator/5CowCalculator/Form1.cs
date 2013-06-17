@@ -24,5 +24,11 @@ namespace _5CowCalculator
             farmer.NumberOfCows = (int)numericUpDown1.Value;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("I need {0} bags of feed for {1} cows",
+                farmer.BagsOfFeed, farmer.NumberOfCows);
+        }
     }
 }

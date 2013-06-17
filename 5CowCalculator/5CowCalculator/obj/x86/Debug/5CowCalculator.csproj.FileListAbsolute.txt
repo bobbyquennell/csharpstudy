@@ -1,0 +1,9 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\bin\Debug\5CowCalculator.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\bin\Debug\5CowCalculator.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\_5CowCalculator.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\_5CowCalculator.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.pdb
