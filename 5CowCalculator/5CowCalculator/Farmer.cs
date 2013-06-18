@@ -9,7 +9,9 @@ namespace _5CowCalculator
     {
         //public int BagsOfFeed;
         public int BagsOfFeed { get; private set; }
-        public const int FeedMultiplier = 30;
+        //public const int FeedMultiplier = 30;
+        private int feedMultiplier;
+        public int FeedMultiplier { get{return feedMultiplier;}}
         private int numberOfCows;
         public int NumberOfCows {
 
