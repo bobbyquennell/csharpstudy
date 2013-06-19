@@ -15,7 +15,8 @@ namespace _5CowCalculator
         public Form1()
         {
             InitializeComponent();
-            farmer = new Farmer(){ NumberOfCows = 15/*, feedMultiplier = 30 */};
+            //farmer = new Farmer(){ NumberOfCows = 15/*, feedMultiplier = 30 */};
+            farmer = new Farmer(15, 30);
         
         }
 

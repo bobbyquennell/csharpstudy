@@ -23,5 +23,11 @@ namespace _5CowCalculator
                 BagsOfFeed = numberOfCows * FeedMultiplier;
             }
         }
+        public Farmer(int numerOfCows, int feedMultiplier) 
+        {
+            this.feedMultiplier = feedMultiplier;
+            NumberOfCows = numerOfCows;
+
+        }
     }
 }
