@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\bin\Debug\5NewDinnerPartywithProperty.exe
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\bin\Debug\5NewDinnerPartywithProperty.pdb
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\_5NewDinnerPartywithProperty.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\_5NewDinnerPartywithProperty.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.exe
+E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.pdb
