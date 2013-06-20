@@ -7,3 +7,5 @@ C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalcula
 C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.exe
 C:\Documents and Settings\bwang\workspace\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.pdb
+E:\cygwin\home\Bobby\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.exe
+E:\cygwin\home\Bobby\csharpstudy\5CowCalculator\5CowCalculator\obj\x86\Debug\5CowCalculator.pdb
