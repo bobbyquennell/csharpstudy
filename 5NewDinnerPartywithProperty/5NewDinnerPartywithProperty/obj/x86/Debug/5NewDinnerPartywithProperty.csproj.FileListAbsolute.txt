@@ -7,3 +7,5 @@ E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywith
 E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.exe
 E:\cygwin\home\Bobby\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\5NewDinnerPartywithProperty\5NewDinnerPartywithProperty\obj\x86\Debug\5NewDinnerPartywithProperty.pdb
