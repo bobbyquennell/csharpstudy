@@ -19,6 +19,7 @@ namespace _6DinnerPlanner2._0
             get { return numOfPeople; }
             set { numOfPeople = value;
                   CalculateCostOfDecorations();
+                  cakeSizeDecide(NumOfPeople);
                  }
         }
         private bool isFancyDecoration;
@@ -37,18 +38,39 @@ namespace _6DinnerPlanner2._0
         }
         private int cakeSize;
         private string cakeWriting;
+        public string CakeWriting
+        { 
+            get 
+            {
+                return cakeWriting;
+            }
+            set
+            {
+                if (value.Length > MaxCharacters)
+                {
+                    MessageBox.Show("Error", "the maximum characters is" + MaxCharacters.ToString());
+                }
+                else
+                {
+                    cakeWriting = value;
+                }
+
+            }
+        }
+        private decimal costOfCake;
         private decimal costOfDecoration;
         public BirthdayParty(int numOfPeople,bool isFancyDeocration, string cakeWriting)
         {
             NumOfPeople = numOfPeople;
-            cakeChoose(NumOfPeople, cakeWriting);
+            CakeWriting = cakeWriting;
             IsFancyDecoration = isFancyDecoration;
 
             CalculateCostOfDecorations();
+            CalculateCakePrice();
         }
-        private void cakeChoose(int personNum,string cakeWriting)
+        private void cakeSizeDecide(int personNum)
         {
-            if (personNum <= 4)
+           if (personNum <= 4)
             {
                 cakeSize = 8;
                 MaxCharacters = 16;
@@ -58,14 +80,24 @@ namespace _6DinnerPlanner2._0
                 cakeSize = 16;
                 MaxCharacters = 40;
             }
-            if (cakeWriting.Length > MaxCharacters)
+        }
+        private void CalculateCakePrice()
+        {
+            decimal writingPrice;
+            writingPrice = WritingPricePerCharacter * CakeWriting.Length;
+            if (cakeSize == 8)
+	        {
+                costOfCake = writingPrice + CakePrice8inches;
+	        }
+            else if (cakeSize == 16)
             {
-                MessageBox.Show("Error", "the maximum characters is" + MaxCharacters.ToString());
+                costOfCake = writingPrice + CakePrice16inches;
             }
             else
             {
-                this.cakeWriting = cakeWriting;
+                MessageBox.Show("Error Message", "cakeSize error:" + cakeSize.ToString());
             }
+            
         }
         private void CalculateCostOfDecorations()
         {
@@ -75,19 +107,17 @@ namespace _6DinnerPlanner2._0
             }
             else
             {
-                costOfDecoration = NumOfPeople * 7.5M + 30;
+                costOfDecoration = NumOfPeople * 7.5M + 30M;
             }
         }
-        public int CalculateCost()
+        public decimal CalculateCost()
         {
-            decimal TotalCost;
-            decimal CakePrice;
-            if ()
-            {
-                
-            }
+            decimal foodCost;
+            foodCost = NumOfPeople * costPerPerson;
+            CalculateCakePrice();
+            CalculateCostOfDecorations();
 
-            return 1;
+            return (foodCost + costOfCake + costOfDecoration);
         }
 
     }
