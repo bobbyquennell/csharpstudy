@@ -66,7 +66,12 @@ namespace _6DinnerPlanner2._0
             {
                 TotalCost = costOfDecoration + (decimal)NumOfPeople * (CostPerPeople + 20m);
             }
-            return TotalCost;
+            if (NumOfPeople > 12)
+            {
+                return TotalCost + 100M;
+            }
+            else
+                return TotalCost;
         }
 
     }

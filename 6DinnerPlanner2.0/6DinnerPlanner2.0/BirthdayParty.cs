@@ -48,7 +48,7 @@ namespace _6DinnerPlanner2._0
             {
                 if (value.Length > MaxCharacters)
                 {
-                    MessageBox.Show("Error", "the maximum characters is" + MaxCharacters.ToString());
+                    MessageBox.Show("the maximum characters is " + MaxCharacters.ToString(), "Error");
                 }
                 else
                 {
@@ -95,7 +95,7 @@ namespace _6DinnerPlanner2._0
             }
             else
             {
-                MessageBox.Show("Error Message", "cakeSize error:" + cakeSize.ToString());
+                MessageBox.Show("cakeSize error: " + cakeSize.ToString(), "Error Message");
             }
             
         }
@@ -116,8 +116,10 @@ namespace _6DinnerPlanner2._0
             foodCost = NumOfPeople * costPerPerson;
             CalculateCakePrice();
             CalculateCostOfDecorations();
-
-            return (foodCost + costOfCake + costOfDecoration);
+            if (NumOfPeople > 12)
+                return (foodCost + costOfCake + costOfDecoration + 100M);
+            else
+                return (foodCost + costOfCake + costOfDecoration);
         }
 
     }
