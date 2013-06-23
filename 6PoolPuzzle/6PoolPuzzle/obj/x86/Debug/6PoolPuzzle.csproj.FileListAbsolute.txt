@@ -1,0 +1,9 @@
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\_6PoolPuzzle.Form1.resources
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\_6PoolPuzzle.Properties.Resources.resources
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\bin\Debug\6PoolPuzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\bin\Debug\6PoolPuzzle.pdb
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\6PoolPuzzle.exe
+E:\cygwin\home\Bobby\csharpstudy\6PoolPuzzle\6PoolPuzzle\obj\x86\Debug\6PoolPuzzle.pdb
