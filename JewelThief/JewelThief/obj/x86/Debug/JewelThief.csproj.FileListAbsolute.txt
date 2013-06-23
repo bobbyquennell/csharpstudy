@@ -1,0 +1,5 @@
+C:\Users\MacMini\work\GitRepository\csharpstudy\JewelThief\JewelThief\bin\Debug\JewelThief.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\JewelThief\JewelThief\bin\Debug\JewelThief.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\JewelThief\JewelThief\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MacMini\work\GitRepository\csharpstudy\JewelThief\JewelThief\obj\x86\Debug\JewelThief.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\JewelThief\JewelThief\obj\x86\Debug\JewelThief.pdb
