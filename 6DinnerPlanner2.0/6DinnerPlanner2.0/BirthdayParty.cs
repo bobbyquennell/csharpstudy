@@ -59,7 +59,7 @@ namespace _6DinnerPlanner2._0
         }
         private decimal costOfCake;
         private decimal costOfDecoration;
-        public BirthdayParty(int numOfPeople,bool isFancyDeocration, string cakeWriting)
+        public BirthdayParty(int numOfPeople,bool isFancyDecoration, string cakeWriting)
         {
             NumOfPeople = numOfPeople;
             CakeWriting = cakeWriting;

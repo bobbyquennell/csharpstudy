@@ -16,3 +16,12 @@ C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\De
 C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Properties.Resources.resources
 C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\Bobby\Desktop\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\5_DinnertParty.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\bin\Debug\5_DinnertParty.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Form1.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\_5_DinnertParty.Properties.Resources.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MacMini\work\GitRepository\csharpstudy\5_DinnertParty\5_DinnertParty\obj\x86\Debug\GenerateResource.write.1.tlog

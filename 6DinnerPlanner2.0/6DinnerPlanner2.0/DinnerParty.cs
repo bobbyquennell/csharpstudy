@@ -59,7 +59,7 @@ namespace _6DinnerPlanner2._0
             decimal TotalCost = 0m;
             if (HealthyOption)
 	        {
-                TotalCost = costOfDecoration + (decimal)NumOfPeople * (CostPerPeople + 5m) * 0.95m;
+                TotalCost = (costOfDecoration + (decimal)NumOfPeople * (CostPerPeople + 5m)) * 0.95m;
 		 
 	        }
             else
