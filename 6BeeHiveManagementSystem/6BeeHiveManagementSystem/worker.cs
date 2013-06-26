@@ -30,6 +30,7 @@ namespace _6BeeHiveManagementSystem
                 {
                     CurrentJob = jobToDo;
                     this.shiftsToWork = shiftsToWork;
+                    shiftsWorked = 0;
                     return true;
                 }
 		 

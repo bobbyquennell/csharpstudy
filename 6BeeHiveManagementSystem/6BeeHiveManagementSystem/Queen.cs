@@ -33,6 +33,7 @@ namespace _6BeeHiveManagementSystem
         }
         public string WorkTheNextShift()
         {
+            shiftsNumber++; 
             string myReport = "Report for shift #" + shiftsNumber + "\r\n";
             for (int i = 0; i < workers.Length; i++)
             {
@@ -44,7 +45,6 @@ namespace _6BeeHiveManagementSystem
                 myReport += getWorkerbeeStatusAndReport(workers[i], i + 1);
 
             }
-            shiftsNumber++;
             return myReport;
 
         }
@@ -60,7 +60,8 @@ namespace _6BeeHiveManagementSystem
                            + "' after this shift\r\n";
                        break;
                   default:
-                       report = "Worker #" + workerNum + " is doing '" + theWorker.CurrentJob + "' for 1 more shifts\r\n";
+                       report = "Worker #" + workerNum + " is doing '" + theWorker.CurrentJob + "' for "
+                        + theWorker.ShiftsLeft + " more shifts\r\n";
                        break;
                }
 	       }

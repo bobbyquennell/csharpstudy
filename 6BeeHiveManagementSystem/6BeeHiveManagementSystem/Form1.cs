@@ -36,8 +36,11 @@ namespace _6BeeHiveManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(!myQueen.AssignWork(workerbeeJobcomboBox.SelectedItem.ToString(), (int)numericUpDown1.Value))
-                MessageBox.Show("Cannot find a bee to do this job");
+            if (!myQueen.AssignWork(workerbeeJobcomboBox.Text, (int)numericUpDown1.Value))
+                MessageBox.Show("Cannot find a bee to do this job" + workerbeeJobcomboBox.Text, "The queen bee says...");
+            else
+                MessageBox.Show("The job '" + workerbeeJobcomboBox.Text + "' will be done in "
+                      + numericUpDown1.Value + " shifts", "The queen bee says...");
         }
 
         private void workShiftsButton_Click(object sender, EventArgs e)
