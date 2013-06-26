@@ -7,3 +7,5 @@ C:\Users\MacMini\work\GitRepository\csharpstudy\6ConstructorOfBaseClassAndSubcla
 C:\Users\MacMini\work\GitRepository\csharpstudy\6ConstructorOfBaseClassAndSubclass\6ConstructorOfBaseClassAndSubclass\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\MacMini\work\GitRepository\csharpstudy\6ConstructorOfBaseClassAndSubclass\6ConstructorOfBaseClassAndSubclass\obj\x86\Debug\6ConstructorOfBaseClassAndSubclass.exe
 C:\Users\MacMini\work\GitRepository\csharpstudy\6ConstructorOfBaseClassAndSubclass\6ConstructorOfBaseClassAndSubclass\obj\x86\Debug\6ConstructorOfBaseClassAndSubclass.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\6ConstructorOfBaseClassAndSubclass\6ConstructorOfBaseClassAndSubclass\obj\x86\Debug\6ConstructorOfBaseClassAndSubclass.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\6ConstructorOfBaseClassAndSubclass\6ConstructorOfBaseClassAndSubclass\obj\x86\Debug\6ConstructorOfBaseClassAndSubclass.pdb

@@ -50,23 +50,23 @@
             "Baby bee tutoring",
             "Honey manufacturing",
             "Sting patrol"});
-            this.workerbeeJobcomboBox.Location = new System.Drawing.Point(12, 56);
+            this.workerbeeJobcomboBox.Location = new System.Drawing.Point(12, 61);
             this.workerbeeJobcomboBox.Name = "workerbeeJobcomboBox";
-            this.workerbeeJobcomboBox.Size = new System.Drawing.Size(161, 20);
+            this.workerbeeJobcomboBox.Size = new System.Drawing.Size(161, 21);
             this.workerbeeJobcomboBox.TabIndex = 0;
             // 
             // workerbeeJobLabel
             // 
             this.workerbeeJobLabel.AutoSize = true;
-            this.workerbeeJobLabel.Location = new System.Drawing.Point(10, 41);
+            this.workerbeeJobLabel.Location = new System.Drawing.Point(10, 44);
             this.workerbeeJobLabel.Name = "workerbeeJobLabel";
-            this.workerbeeJobLabel.Size = new System.Drawing.Size(89, 12);
+            this.workerbeeJobLabel.Size = new System.Drawing.Size(80, 13);
             this.workerbeeJobLabel.TabIndex = 1;
             this.workerbeeJobLabel.Text = "Worker bee job";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(205, 55);
+            this.numericUpDown1.Location = new System.Drawing.Point(205, 60);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10,
             0,
@@ -78,7 +78,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(61, 21);
+            this.numericUpDown1.Size = new System.Drawing.Size(61, 20);
             this.numericUpDown1.TabIndex = 2;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
@@ -89,53 +89,55 @@
             // shiftsLabel
             // 
             this.shiftsLabel.AutoSize = true;
-            this.shiftsLabel.Location = new System.Drawing.Point(203, 40);
+            this.shiftsLabel.Location = new System.Drawing.Point(203, 43);
             this.shiftsLabel.Name = "shiftsLabel";
-            this.shiftsLabel.Size = new System.Drawing.Size(41, 12);
+            this.shiftsLabel.Size = new System.Drawing.Size(33, 13);
             this.shiftsLabel.TabIndex = 3;
             this.shiftsLabel.Text = "Shifts";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 95);
+            this.button1.Location = new System.Drawing.Point(12, 103);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(161, 23);
+            this.button1.Size = new System.Drawing.Size(161, 25);
             this.button1.TabIndex = 4;
             this.button1.Text = "Assign this job to a bee";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // workerbeeAssignmentGroupBox
             // 
-            this.workerbeeAssignmentGroupBox.Location = new System.Drawing.Point(4, 12);
+            this.workerbeeAssignmentGroupBox.Location = new System.Drawing.Point(4, 13);
             this.workerbeeAssignmentGroupBox.Name = "workerbeeAssignmentGroupBox";
-            this.workerbeeAssignmentGroupBox.Size = new System.Drawing.Size(283, 118);
+            this.workerbeeAssignmentGroupBox.Size = new System.Drawing.Size(283, 128);
             this.workerbeeAssignmentGroupBox.TabIndex = 5;
             this.workerbeeAssignmentGroupBox.TabStop = false;
             this.workerbeeAssignmentGroupBox.Text = "Worker Bee Assignments";
             // 
             // workShiftsButton
             // 
-            this.workShiftsButton.Location = new System.Drawing.Point(331, 41);
+            this.workShiftsButton.Location = new System.Drawing.Point(331, 44);
             this.workShiftsButton.Name = "workShiftsButton";
-            this.workShiftsButton.Size = new System.Drawing.Size(75, 66);
+            this.workShiftsButton.Size = new System.Drawing.Size(75, 72);
             this.workShiftsButton.TabIndex = 6;
             this.workShiftsButton.Text = "Work the next shift";
             this.workShiftsButton.UseVisualStyleBackColor = true;
+            this.workShiftsButton.Click += new System.EventHandler(this.workShiftsButton_Click);
             // 
             // ReportTextBox
             // 
-            this.ReportTextBox.Location = new System.Drawing.Point(12, 137);
+            this.ReportTextBox.Location = new System.Drawing.Point(12, 148);
             this.ReportTextBox.Multiline = true;
             this.ReportTextBox.Name = "ReportTextBox";
             this.ReportTextBox.ReadOnly = true;
-            this.ReportTextBox.Size = new System.Drawing.Size(394, 212);
+            this.ReportTextBox.Size = new System.Drawing.Size(394, 229);
             this.ReportTextBox.TabIndex = 7;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 361);
+            this.ClientSize = new System.Drawing.Size(418, 391);
             this.Controls.Add(this.ReportTextBox);
             this.Controls.Add(this.workShiftsButton);
             this.Controls.Add(this.button1);

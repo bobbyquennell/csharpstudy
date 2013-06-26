@@ -1,0 +1,9 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\bin\Debug\6BeeHiveManagementSystem.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\bin\Debug\6BeeHiveManagementSystem.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\_6BeeHiveManagementSystem.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\_6BeeHiveManagementSystem.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\6BeeHiveManagementSystem.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeeHiveManagementSystem\obj\x86\Debug\6BeeHiveManagementSystem.pdb

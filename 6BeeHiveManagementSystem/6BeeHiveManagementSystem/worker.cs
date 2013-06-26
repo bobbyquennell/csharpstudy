@@ -36,19 +36,24 @@ namespace _6BeeHiveManagementSystem
 	        }
             return false;
         }
-        public void WorkOneShift(){
-            shiftsWorked++;
-            ShiftsLeft = shiftsToWork - shiftsWorked;
-            if (ShiftsLeft == 0)
+        public bool WorkOneShift(){
+            if (!string.IsNullOrEmpty(CurrentJob))
             {
-                shiftsToWork = 0;
-                shiftsWorked = 0;
-                CurrentJob = "";
-            }
+                shiftsWorked++;
+                ShiftsLeft = shiftsToWork - shiftsWorked;
+                if (ShiftsLeft == 0)
+                {
+                    shiftsToWork = 0;
+                    shiftsWorked = 0;
+                    CurrentJob = "";
+                    return true; // job finished
+                }
+            } 
+            return false; // job not yet finished
         }
         private bool isJobICanDo(string job)
         {
-            for (int i = 0; i < jobICanDo.Length - 1; i++)
+            for (int i = 0; i < jobICanDo.Length; i++)
             {
                 if (jobICanDo[i] == job)
                 {
