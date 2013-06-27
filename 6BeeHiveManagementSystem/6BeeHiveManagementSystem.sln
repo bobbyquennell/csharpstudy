@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6BeeHiveManagementSystem", "6BeeHiveManagementSystem\6BeeHiveManagementSystem.csproj", "{854A6F42-F007-499D-8317-4ED53A18097D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6BeehiveManagementSystem2.0", "6BeehiveManagementSystem2.0\6BeehiveManagementSystem2.0.csproj", "{7C371581-0642-44FC-A0E3-98571FFC6B56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{854A6F42-F007-499D-8317-4ED53A18097D}.Debug|x86.Build.0 = Debug|x86
 		{854A6F42-F007-499D-8317-4ED53A18097D}.Release|x86.ActiveCfg = Release|x86
 		{854A6F42-F007-499D-8317-4ED53A18097D}.Release|x86.Build.0 = Release|x86
+		{7C371581-0642-44FC-A0E3-98571FFC6B56}.Debug|x86.ActiveCfg = Debug|x86
+		{7C371581-0642-44FC-A0E3-98571FFC6B56}.Debug|x86.Build.0 = Debug|x86
+		{7C371581-0642-44FC-A0E3-98571FFC6B56}.Release|x86.ActiveCfg = Release|x86
+		{7C371581-0642-44FC-A0E3-98571FFC6B56}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
