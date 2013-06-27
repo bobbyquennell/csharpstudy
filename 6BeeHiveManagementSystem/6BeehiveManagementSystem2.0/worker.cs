@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _6BeeHiveManagementSystem2_0
+namespace _6BeehiveManagementSystem2_0
 {
-    class worker
+    class worker : Bee
     {
         private string[] jobICanDo;
         public string CurrentJob { get; private set; }
-        public int ShiftsLeft { get; private set; }
+        //private int shiftsLeft;
+        public override int ShiftsLeft
+        {
+            get { return shiftsToWork - shiftsWorked; }
+            //set { shiftsLeft = ShiftsLeft; }
+        }
         private int shiftsToWork;
         private int shiftsWorked;
-        public worker(string[] jobCanDo)
+        public worker(int beeWeight, string[] jobCanDo)
+            : base(beeWeight)
         {
             jobICanDo = new string[jobCanDo.Length];
             jobICanDo = jobCanDo;
@@ -20,7 +26,7 @@ namespace _6BeeHiveManagementSystem2_0
             //{
             //    jobICanDo[i] = jobCanDo[i];
             //}
-            
+
         }
         public bool DoThisJob(string jobToDo, int shiftsToWork)
         {
@@ -41,7 +47,7 @@ namespace _6BeeHiveManagementSystem2_0
             if (!string.IsNullOrEmpty(CurrentJob))
             {
                 shiftsWorked++;
-                ShiftsLeft = shiftsToWork - shiftsWorked;
+                //ShiftsLeft = shiftsToWork - shiftsWorked;
                 if (ShiftsLeft == 0)
                 {
                     shiftsToWork = 0;

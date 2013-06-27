@@ -7,3 +7,12 @@ C:\Users\MacMini\work\GitRepository\csharpstudy\6BeeHiveManagementSystem\6Beehiv
 C:\Users\MacMini\work\GitRepository\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\bin\Debug\6BeehiveManagementSystem2.0.pdb
 C:\Users\MacMini\work\GitRepository\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\6BeehiveManagementSystem2.0.exe
 C:\Users\MacMini\work\GitRepository\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\6BeehiveManagementSystem2.0.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\6BeehiveManagementSystem2.0.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\6BeehiveManagementSystem2.0.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\bin\Debug\6BeehiveManagementSystem2.0.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\bin\Debug\6BeehiveManagementSystem2.0.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\_6BeehiveManagementSystem2_0.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\_6BeehiveManagementSystem2._0.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\6BeeHiveManagementSystem\6BeehiveManagementSystem2.0\obj\x86\Debug\GenerateResource.write.1.tlog

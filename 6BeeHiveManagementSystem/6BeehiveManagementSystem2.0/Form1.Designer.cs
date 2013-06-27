@@ -1,4 +1,4 @@
-﻿namespace _6BeeHiveManagementSystem2_0
+﻿namespace _6BeehiveManagementSystem2_0
 {
     partial class Form1
     {

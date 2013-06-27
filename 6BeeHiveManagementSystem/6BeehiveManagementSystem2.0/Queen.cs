@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _6BeeHiveManagementSystem2_0
+namespace _6BeehiveManagementSystem2_0
 {
-    class Queen
+    class Queen : Bee
     {
         private worker[] workers;
         private int shiftsNumber;
         public Queen(worker[] workers)
+            :base(275)
         {
             //creat the queen's worker bees
             this.workers = new worker[workers.Length];
@@ -33,11 +34,18 @@ namespace _6BeeHiveManagementSystem2_0
         }
         public string WorkTheNextShift()
         {
+            double TotalHoneyConsumption = 0 ; 
             shiftsNumber++; 
             string myReport = "Report for shift #" + shiftsNumber + "\r\n";
+            //Get total honey consumption
+            for (int i = 0; i < workers.Length; i++)
+                TotalHoneyConsumption += workers[i].GetHoneyConsumption();  
+            TotalHoneyConsumption += GetHoneyConsumption();
+
             for (int i = 0; i < workers.Length; i++)
             {
                 bool isWorkDone = workers[i].WorkOneShift();
+                
                 if (isWorkDone)
                 {
                     myReport += "Worker #" + (i+1) + " finished the job\r\n";
@@ -45,6 +53,8 @@ namespace _6BeeHiveManagementSystem2_0
                 myReport += getWorkerbeeStatusAndReport(workers[i], i + 1);
 
             }
+
+            myReport += "Total honey consumption: " + TotalHoneyConsumption + " units \r\n";
             return myReport;
 
         }
@@ -71,6 +81,26 @@ namespace _6BeeHiveManagementSystem2_0
            }
 
            return report;
+        }
+
+        public override double GetHoneyConsumption()
+        {
+            double myHoneyConsumption = workers[0].GetHoneyConsumption();
+            int currentWorkingBeeNum = 0;
+
+            //find who use the most honey
+            for (int i = 0; i < workers.Length; i++)
+            {
+                if (myHoneyConsumption <= workers[i].GetHoneyConsumption())
+                    myHoneyConsumption = workers[i].GetHoneyConsumption();//find who use the most honey
+                if (!string.IsNullOrEmpty(workers[i].CurrentJob))
+                    currentWorkingBeeNum++;//get how many bees are working
+            }
+            if ((currentWorkingBeeNum <= 2) && (currentWorkingBeeNum > 0))
+                myHoneyConsumption += 20;
+            if (currentWorkingBeeNum >= 3)
+                myHoneyConsumption += 30;
+            return myHoneyConsumption;
         }
     }
 }

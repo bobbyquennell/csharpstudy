@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace _6BeeHiveManagementSystem2_0
+namespace _6BeehiveManagementSystem2_0
 {
     public partial class Form1 : Form
     {
@@ -25,10 +25,10 @@ namespace _6BeeHiveManagementSystem2_0
             Honey manufacturing
             Sting patrol*/
 
-            myworkers[0] = new worker(new string[] { "Nectar collector", "Honey manufacturing"});
-            myworkers[1] = new worker(new string[] { "Egg care", "Baby bee tutoring"});
-            myworkers[2] = new worker(new string[] { "Hive maintenance", "Sting patrol" });
-            myworkers[3] = new worker(new string[] {"Nectar collector", "Honey manufacturing", "Egg care",
+            myworkers[0] = new worker(175, new string[] { "Nectar collector", "Honey manufacturing"});
+            myworkers[1] = new worker(114, new string[] { "Egg care", "Baby bee tutoring"});
+            myworkers[2] = new worker(149, new string[] { "Hive maintenance", "Sting patrol" });
+            myworkers[3] = new worker(155, new string[] {"Nectar collector", "Honey manufacturing", "Egg care",
                            "Baby bee tutoring", "Hive maintenance", "Sting patrol"});
 
             myQueen = new Queen(myworkers);

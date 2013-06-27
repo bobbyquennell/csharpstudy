@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace _6BeeHiveManagementSystem2_0
+namespace _6BeehiveManagementSystem2_0
 {
     static class Program
     {
