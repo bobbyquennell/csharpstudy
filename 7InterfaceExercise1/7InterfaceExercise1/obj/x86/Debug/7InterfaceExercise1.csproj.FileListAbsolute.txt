@@ -1,0 +1,5 @@
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise1\7InterfaceExercise1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise1\7InterfaceExercise1\bin\Debug\7InterfaceExercise1.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise1\7InterfaceExercise1\bin\Debug\7InterfaceExercise1.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise1\7InterfaceExercise1\obj\x86\Debug\7InterfaceExercise1.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise1\7InterfaceExercise1\obj\x86\Debug\7InterfaceExercise1.pdb
