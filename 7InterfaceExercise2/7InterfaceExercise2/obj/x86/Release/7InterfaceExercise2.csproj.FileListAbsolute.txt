@@ -1,0 +1,9 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\bin\Release\7InterfaceExercise2.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\bin\Release\7InterfaceExercise2.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\_7InterfaceExercise2.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\_7InterfaceExercise2.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\7InterfaceExercise2.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Release\7InterfaceExercise2.pdb
