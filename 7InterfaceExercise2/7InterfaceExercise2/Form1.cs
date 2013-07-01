@@ -20,6 +20,7 @@ namespace _7InterfaceExercise2
         {
             TallGuy tallguy = new TallGuy() {Height = 74, Name = "Jimmy"};
             tallguy.TalkAboutYourself();
+            tallguy.Honk();
         }
     }
 }
