@@ -17,7 +17,8 @@ namespace _7InterfaceExercise2
 
         public void ScareLittleChildren()
         {
-            MessageBox.Show("Boo! Gotcha!");
+            //MessageBox.Show("Boo! Gotcha!");
+            MessageBox.Show("You can't have my " + base.funnyThingIHave);
         }
         public ScaryScary(string FunnyThingIHave, int numberOfScaryThings)
             : base(FunnyThingIHave)

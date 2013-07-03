@@ -8,7 +8,8 @@ namespace _7InterfaceExercise2
 {
     class FunnyFunny:IClown
     {
-        private string funnyThingIHave;
+        //private string funnyThingIHave;
+        protected string funnyThingIHave;
         public FunnyFunny(string FunnyThingIHave)
         {
             funnyThingIHave = FunnyThingIHave;

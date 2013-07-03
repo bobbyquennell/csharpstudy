@@ -25,15 +25,19 @@ namespace _7InterfaceExercise2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //solution A: this solution is used to show upcasting and downcasting
             ScaryScary fingersTheClown = new ScaryScary("big shoes", 14);
             FunnyFunny someFunnyClown = fingersTheClown;//upcasting to FunnyFunny Class
-            IScaryClown  someOtherScaryClown = someFunnyClown as ScaryScary;//downcasting to ScaryScary Class
+            IScaryClown  someOtherScaryClown = someFunnyClown as ScaryScary;//downcasting to IScaryClown interface
             
-            //if (someFunnyClown is IScaryClown) //my solution which is different to the book, using interface casting with "as IScaryClown"
+            //if (someFunnyClown is IScaryClown) //my solution 1 which is different to the book, using interface casting with "as IScaryClown"
             //{
                 //IScaryClown someOtherScaryClown = someFunnyClown as IScaryClown;
                 //someOtherScaryClown.Honk();
             //}
+
+            //solution 2: just one statement is enough
+            //IScaryClown someOtherScaryClown = new ScaryScary("big shoes", 14);
             someOtherScaryClown.Honk();
             //someFunnyClown.Honk();
             

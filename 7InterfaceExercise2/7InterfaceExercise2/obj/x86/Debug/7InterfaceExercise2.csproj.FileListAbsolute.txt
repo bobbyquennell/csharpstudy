@@ -7,3 +7,12 @@ C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7Inter
 C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\7InterfaceExercise2.exe
 C:\Documents and Settings\bwang\workspace\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\7InterfaceExercise2.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\7InterfaceExercise2.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\7InterfaceExercise2.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\bin\Debug\7InterfaceExercise2.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\bin\Debug\7InterfaceExercise2.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\_7InterfaceExercise2.Form1.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\_7InterfaceExercise2.Properties.Resources.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MacMini\work\GitRepository\csharpstudy\7InterfaceExercise2\7InterfaceExercise2\obj\x86\Debug\GenerateResource.write.1.tlog
