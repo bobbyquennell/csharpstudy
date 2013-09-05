@@ -30,7 +30,7 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Gohere = new System.Windows.Forms.Button();
-            this.Exits = new System.Windows.Forms.ComboBox();
+            this.ExitsComboBox = new System.Windows.Forms.ComboBox();
             this.GoThroughTheDoor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -52,14 +52,14 @@
             this.Gohere.UseVisualStyleBackColor = true;
             this.Gohere.Click += new System.EventHandler(this.Gohere_Click);
             // 
-            // Exits
+            // ExitsComboBox
             // 
-            this.Exits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Exits.FormattingEnabled = true;
-            this.Exits.Location = new System.Drawing.Point(146, 182);
-            this.Exits.Name = "Exits";
-            this.Exits.Size = new System.Drawing.Size(121, 21);
-            this.Exits.TabIndex = 2;
+            this.ExitsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ExitsComboBox.FormattingEnabled = true;
+            this.ExitsComboBox.Location = new System.Drawing.Point(146, 182);
+            this.ExitsComboBox.Name = "ExitsComboBox";
+            this.ExitsComboBox.Size = new System.Drawing.Size(121, 21);
+            this.ExitsComboBox.TabIndex = 2;
             // 
             // GoThroughTheDoor
             // 
@@ -78,7 +78,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 266);
             this.Controls.Add(this.GoThroughTheDoor);
-            this.Controls.Add(this.Exits);
+            this.Controls.Add(this.ExitsComboBox);
             this.Controls.Add(this.Gohere);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
@@ -92,7 +92,7 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Gohere;
-        private System.Windows.Forms.ComboBox Exits;
+        private System.Windows.Forms.ComboBox ExitsComboBox;
         private System.Windows.Forms.Button GoThroughTheDoor;
     }
 }

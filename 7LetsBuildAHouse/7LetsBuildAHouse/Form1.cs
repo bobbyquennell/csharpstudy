@@ -15,21 +15,8 @@ namespace _7LetsBuildAHouse
         OutsideWithDoor FrontYard, BackYard;
         RoomWithDoor LivingRoom, Kitchen;
         Room DiningRoom;
-        private void CreateObjects()
-        {
-             DiningRoom = new Room("Dining Room", "flowers");
-             LivingRoom = new RoomWithDoor("Living room", "an antique carpet", "an oak door with a brass knob");
-             Kitchen = new RoomWithDoor("Kitchen", "Big Kitchen", "a screen door");
-             FrontYard = new OutsideWithDoor("FrontYard", false, "an oak door with a brass knob");
-             BackYard = new OutsideWithDoor("BackYard", true, "a screen door");
-             garden = new Outside("name", false);
+        Location currentLocation;
 
-             garden.Exits = new Location[] { FrontYard, BackYard };
-             DiningRoom.Exits = new Location[] { Kitchen, LivingRoom };
-             LivingRoom.Exits = new Location[] { DiningRoom };
-             Kitchen.Exits = new Location[] { DiningRoom };
-
-        }
         public Form1()
         {
             InitializeComponent();
@@ -45,6 +32,33 @@ namespace _7LetsBuildAHouse
 
         private void GoThroughTheDoor_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void CreateObjects()
+        {
+            DiningRoom = new Room("Dining Room", "flowers");
+            LivingRoom = new RoomWithDoor("Living room", "an antique carpet", "an oak door with a brass knob");
+            Kitchen = new RoomWithDoor("Kitchen", "Big Kitchen", "a screen door");
+            FrontYard = new OutsideWithDoor("FrontYard", false, "an oak door with a brass knob");
+            BackYard = new OutsideWithDoor("BackYard", true, "a screen door");
+            garden = new Outside("name", false);
+
+            garden.Exits = new Location[] { FrontYard, BackYard };
+            DiningRoom.Exits = new Location[] { Kitchen, LivingRoom };
+            LivingRoom.Exits = new Location[] { DiningRoom };
+            Kitchen.Exits = new Location[] { DiningRoom };
+
+        }
+        private void MoveToANewLocation(Location newLocation)
+        {
+            currentLocation = newLocation;
+            ExitsComboBox.Items.Clear();
+
+            for (int i = 0; i < newLocation.Exits.Length; i++)
+            {
+                ExitsComboBox.Items.Add(newLocation.Exits[i]);
+            }
 
         }
     }
