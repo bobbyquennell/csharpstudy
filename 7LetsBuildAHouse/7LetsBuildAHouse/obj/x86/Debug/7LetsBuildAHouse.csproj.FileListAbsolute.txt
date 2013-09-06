@@ -1,0 +1,9 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\bin\Debug\7LetsBuildAHouse.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\bin\Debug\7LetsBuildAHouse.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\_7LetsBuildAHouse.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\_7LetsBuildAHouse.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\7LetsBuildAHouse.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouse\7LetsBuildAHouse\obj\x86\Debug\7LetsBuildAHouse.pdb

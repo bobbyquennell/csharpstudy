@@ -31,7 +31,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Gohere = new System.Windows.Forms.Button();
             this.ExitsComboBox = new System.Windows.Forms.ComboBox();
-            this.GoThroughTheDoor = new System.Windows.Forms.Button();
+            this.GoThroughTheDoorButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -61,23 +61,23 @@
             this.ExitsComboBox.Size = new System.Drawing.Size(121, 21);
             this.ExitsComboBox.TabIndex = 2;
             // 
-            // GoThroughTheDoor
+            // GoThroughTheDoorButton
             // 
-            this.GoThroughTheDoor.Location = new System.Drawing.Point(29, 225);
-            this.GoThroughTheDoor.Name = "GoThroughTheDoor";
-            this.GoThroughTheDoor.Size = new System.Drawing.Size(238, 23);
-            this.GoThroughTheDoor.TabIndex = 3;
-            this.GoThroughTheDoor.Text = "Go through the door";
-            this.GoThroughTheDoor.UseVisualStyleBackColor = true;
-            this.GoThroughTheDoor.Visible = false;
-            this.GoThroughTheDoor.Click += new System.EventHandler(this.GoThroughTheDoor_Click);
+            this.GoThroughTheDoorButton.Location = new System.Drawing.Point(29, 225);
+            this.GoThroughTheDoorButton.Name = "GoThroughTheDoorButton";
+            this.GoThroughTheDoorButton.Size = new System.Drawing.Size(238, 23);
+            this.GoThroughTheDoorButton.TabIndex = 3;
+            this.GoThroughTheDoorButton.Text = "Go through the door";
+            this.GoThroughTheDoorButton.UseVisualStyleBackColor = true;
+            this.GoThroughTheDoorButton.Visible = false;
+            this.GoThroughTheDoorButton.Click += new System.EventHandler(this.GoThroughTheDoorButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 266);
-            this.Controls.Add(this.GoThroughTheDoor);
+            this.Controls.Add(this.GoThroughTheDoorButton);
             this.Controls.Add(this.ExitsComboBox);
             this.Controls.Add(this.Gohere);
             this.Controls.Add(this.textBox1);
@@ -93,7 +93,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Gohere;
         private System.Windows.Forms.ComboBox ExitsComboBox;
-        private System.Windows.Forms.Button GoThroughTheDoor;
+        private System.Windows.Forms.Button GoThroughTheDoorButton;
     }
 }
 

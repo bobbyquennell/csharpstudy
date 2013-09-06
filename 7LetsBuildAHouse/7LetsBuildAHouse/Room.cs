@@ -16,23 +16,27 @@ namespace _7LetsBuildAHouse
             this.decoration = decoration;
         }
         public override string Description { 
+            //get {
+            //    string description = "You're standing in the " + base.Name +
+            //        ". You see exits to the following places: ";
+            //    for (int i = 0; i < base.Exits.Length; i++)
+            //    {
+            //        description += " " + base.Exits[i].Name;
+            //        if (i != base.Exits.Length - 1)
+            //            description += ",";
+
+            //    }
+            //    description += ".";
+
+            //    description += " You see " + Decoration.ToString() + " here.";
+
+            //    return description;
+
+            //}  
+            // a better way:call a base method
             get {
-                string description = "You're standing in the " + base.Name +
-                    ". You see exits to the following places: ";
-                for (int i = 0; i < base.Exits.Length; i++)
-                {
-                    description += " " + base.Exits[i].Name;
-                    if (i != base.Exits.Length - 1)
-                        description += ",";
-
-                }
-                description += ".";
-
-                description += " You see " + Decoration.ToString() + " here.";
-
-                return description;
-
-            }  
+                return base.Description + "You see " + Decoration + " here.";
+            }
         }
     }
 }
