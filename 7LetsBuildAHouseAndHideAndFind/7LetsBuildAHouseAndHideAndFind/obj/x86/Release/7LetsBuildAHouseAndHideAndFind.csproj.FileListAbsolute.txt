@@ -1,0 +1,9 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\bin\Release\7LetsBuildAHouseAndHideAndFind.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\bin\Release\7LetsBuildAHouseAndHideAndFind.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\_7LetsBuildAHouseAndHideAndFind.Form1.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\_7LetsBuildAHouseAndHideAndFind.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\7LetsBuildAHouseAndHideAndFind.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\7LetsBuildAHouseAndHideAndFind\7LetsBuildAHouseAndHideAndFind\obj\x86\Release\7LetsBuildAHouseAndHideAndFind.pdb
