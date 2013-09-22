@@ -14,9 +14,24 @@ namespace _7LetsBuildAHouseAndHideAndFind
             myLocation = startingLocation;
             random = new Random();
         }
-        private move()
+        private void move()
         {
+            RoomWithDoor myRoomWithADoor;
+            if(myLocation is RoomWithDoor)
+            {
+                myRoomWithADoor = myLocation as RoomWithDoor; 
+                if (random.Next(2) == 1)
+                {
+                    //go through the door
+                    myLocation = myRoomWithADoor.DoorLocation;
 
+                }
+            }
+
+            do{
+                myLocation = myLocation.Exits[random.Next(myLocation.Exits.Length)];
+            }while(myLocation is IHidingPlace);
         }
+        //need to continue
     }
 }
