@@ -30,8 +30,14 @@ namespace _7LetsBuildAHouseAndHideAndFind
 
             do{
                 myLocation = myLocation.Exits[random.Next(myLocation.Exits.Length)];
-            }while(myLocation is IHidingPlace);
+            }while(!(myLocation is IHidingPlace));
         }
-        //need to continue
+        //check
+        public bool Check(Location tryLocation){
+            if (this.myLocation == tryLocation)
+                return true; // found you!
+            else
+                return false; // Opponent is not there.
+        }
     }
 }
