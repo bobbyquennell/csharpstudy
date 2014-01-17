@@ -11,10 +11,12 @@ namespace _7LetsBuildAHouseAndHideAndFind
 {
     public partial class Form1 : Form
     {
-        Outside garden;
+        //Outside garden;
         OutsideWithDoor FrontYard, BackYard;
         RoomWithDoor LivingRoom, Kitchen;
-        Room DiningRoom;
+        RoomWithHidingPlace Upstairs_hallway, Master_bedroom, Second_bedroom, Bathroom;
+        OutsideWithHidingPlace Driveway, Garden;
+        Room DiningRoom, Stairs;
         Location currentLocation;
 
         public Form1()
@@ -34,15 +36,28 @@ namespace _7LetsBuildAHouseAndHideAndFind
             Kitchen = new RoomWithDoor("Kitchen", "Big Kitchen", "microwave oven", "a screen door");
             FrontYard = new OutsideWithDoor("FrontYard", false, "an oak door with a brass knob");
             BackYard = new OutsideWithDoor("BackYard", true, "a screen door");
-            garden = new Outside("Garden", false);
+
+            Garden = new OutsideWithHidingPlace("Garden", false, "the Shed in the Garden");
+            Stairs = new Room("Stairs", "a wooden bannister");
+            Upstairs_hallway = new RoomWithHidingPlace("Upstairs Hallway", "a picture of a dog and a closet", "a closet");
+            Master_bedroom = new RoomWithHidingPlace("Master Bedroom", "a larg bed", "a larg bed");
+            Second_bedroom = new RoomWithHidingPlace("Second Bedroom", "a small bed", "a small bed");
+            Bathroom = new RoomWithHidingPlace("Bathroom", "a sink and a toilet", "the shower");
+            Driveway = new OutsideWithHidingPlace("Driveway", false, "a garage");
 
             //Initialize Exits
-            garden.Exits = new Location[] { FrontYard, BackYard };
+            Garden.Exits = new Location[] { FrontYard, BackYard };
             DiningRoom.Exits = new Location[] { Kitchen, LivingRoom };
-            LivingRoom.Exits = new Location[] { DiningRoom };
+            LivingRoom.Exits = new Location[] { DiningRoom, Stairs};
+            Stairs.Exits = new Location[] { Upstairs_hallway, LivingRoom };
+            Upstairs_hallway.Exits = new Location[] { Stairs, Master_bedroom, Second_bedroom, Bathroom};
+            Bathroom.Exits = new Location[] { Upstairs_hallway };
+            Master_bedroom.Exits = new Location[] { Upstairs_hallway};
+            Second_bedroom.Exits = new Location[] { Upstairs_hallway };
+            Driveway.Exits = new Location[] { FrontYard, BackYard };
             Kitchen.Exits = new Location[] { DiningRoom };
-            FrontYard.Exits = new Location[] { BackYard, garden };
-            BackYard.Exits = new Location[] { FrontYard, garden };
+            FrontYard.Exits = new Location[] { BackYard, Garden, Driveway };
+            BackYard.Exits = new Location[] { FrontYard, Garden, Driveway };
 
             //Initialize Doors
             FrontYard.DoorLocation = LivingRoom;
