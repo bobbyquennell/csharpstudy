@@ -18,6 +18,7 @@ namespace _7LetsBuildAHouseAndHideAndFind
         OutsideWithHidingPlace Driveway, Garden;
         Room DiningRoom, Stairs;
         Location currentLocation;
+        Opponent MyOpponent;
 
         public Form1()
         {
@@ -26,6 +27,8 @@ namespace _7LetsBuildAHouseAndHideAndFind
             CreateObjects();
 
             MoveToANewLocation(FrontYard);
+            MyOpponent = new Opponent(FrontYard);
+
         }
 
 
@@ -109,6 +112,18 @@ namespace _7LetsBuildAHouseAndHideAndFind
                 Door = currentLocation as IHasExteriorDoor;
                 MoveToANewLocation(Door.DoorLocation);
             }
+        }
+
+        private void Hide_button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = null;
+            for (int n = 1; n <= 10; n++)
+            {
+                textBox1.Text += n.ToString() + "\r\n";
+                MyOpponent.move();
+
+            }
+            Hide_button.Visible = false;
         }
     }
 }

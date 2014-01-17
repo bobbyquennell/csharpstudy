@@ -14,7 +14,7 @@ namespace _7LetsBuildAHouseAndHideAndFind
             myLocation = startingLocation;
             random = new Random();
         }
-        private void move()
+        public void move()
         {
             RoomWithDoor myRoomWithADoor;
             if(myLocation is RoomWithDoor)
