@@ -38,17 +38,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 26);
+            this.textBox1.Location = new System.Drawing.Point(29, 24);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 149);
+            this.textBox1.Size = new System.Drawing.Size(225, 138);
             this.textBox1.TabIndex = 0;
             // 
             // Gohere
             // 
-            this.Gohere.Location = new System.Drawing.Point(29, 181);
+            this.Gohere.Location = new System.Drawing.Point(29, 167);
             this.Gohere.Name = "Gohere";
-            this.Gohere.Size = new System.Drawing.Size(75, 23);
+            this.Gohere.Size = new System.Drawing.Size(75, 21);
             this.Gohere.TabIndex = 1;
             this.Gohere.Text = "Go Here:";
             this.Gohere.UseVisualStyleBackColor = true;
@@ -59,17 +59,17 @@
             // 
             this.ExitsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ExitsComboBox.FormattingEnabled = true;
-            this.ExitsComboBox.Location = new System.Drawing.Point(146, 182);
+            this.ExitsComboBox.Location = new System.Drawing.Point(146, 168);
             this.ExitsComboBox.Name = "ExitsComboBox";
-            this.ExitsComboBox.Size = new System.Drawing.Size(121, 21);
+            this.ExitsComboBox.Size = new System.Drawing.Size(121, 20);
             this.ExitsComboBox.TabIndex = 2;
             this.ExitsComboBox.Visible = false;
             // 
             // GoThroughTheDoorButton
             // 
-            this.GoThroughTheDoorButton.Location = new System.Drawing.Point(29, 225);
+            this.GoThroughTheDoorButton.Location = new System.Drawing.Point(29, 208);
             this.GoThroughTheDoorButton.Name = "GoThroughTheDoorButton";
-            this.GoThroughTheDoorButton.Size = new System.Drawing.Size(238, 23);
+            this.GoThroughTheDoorButton.Size = new System.Drawing.Size(238, 21);
             this.GoThroughTheDoorButton.TabIndex = 3;
             this.GoThroughTheDoorButton.Text = "Go through the door";
             this.GoThroughTheDoorButton.UseVisualStyleBackColor = true;
@@ -78,19 +78,20 @@
             // 
             // check_button
             // 
-            this.check_button.Location = new System.Drawing.Point(29, 255);
+            this.check_button.Location = new System.Drawing.Point(29, 235);
             this.check_button.Name = "check_button";
-            this.check_button.Size = new System.Drawing.Size(238, 23);
+            this.check_button.Size = new System.Drawing.Size(238, 21);
             this.check_button.TabIndex = 4;
             this.check_button.Text = "check";
             this.check_button.UseVisualStyleBackColor = true;
             this.check_button.Visible = false;
+            this.check_button.Click += new System.EventHandler(this.check_button_Click);
             // 
             // Hide_button
             // 
-            this.Hide_button.Location = new System.Drawing.Point(29, 285);
+            this.Hide_button.Location = new System.Drawing.Point(29, 263);
             this.Hide_button.Name = "Hide_button";
-            this.Hide_button.Size = new System.Drawing.Size(238, 23);
+            this.Hide_button.Size = new System.Drawing.Size(238, 21);
             this.Hide_button.TabIndex = 5;
             this.Hide_button.Text = "Hide";
             this.Hide_button.UseVisualStyleBackColor = true;
@@ -98,9 +99,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 344);
+            this.ClientSize = new System.Drawing.Size(290, 318);
             this.Controls.Add(this.Hide_button);
             this.Controls.Add(this.check_button);
             this.Controls.Add(this.GoThroughTheDoorButton);

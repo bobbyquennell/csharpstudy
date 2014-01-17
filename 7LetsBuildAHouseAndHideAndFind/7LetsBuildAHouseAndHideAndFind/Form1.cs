@@ -26,7 +26,7 @@ namespace _7LetsBuildAHouseAndHideAndFind
 
             CreateObjects();
 
-            MoveToANewLocation(FrontYard);
+           // MoveToANewLocation(FrontYard);
             MyOpponent = new Opponent(FrontYard);
 
         }
@@ -96,6 +96,14 @@ namespace _7LetsBuildAHouseAndHideAndFind
             {
                 GoThroughTheDoorButton.Visible = false;
             }
+            if (newLocation is IHidingPlace)
+            {
+                check_button.Visible = true;
+                IHidingPlace myHidingPlace = newLocation as IHidingPlace;
+                check_button.Text = "Check " + myHidingPlace.HidingPlaceName.ToString() + "\r\n";
+            }
+            else
+                check_button.Visible = false;
 
         }
 
@@ -119,11 +127,26 @@ namespace _7LetsBuildAHouseAndHideAndFind
             textBox1.Text = null;
             for (int n = 1; n <= 10; n++)
             {
-                textBox1.Text += n.ToString() + "\r\n";
+
+                textBox1.Text = n.ToString() + "...";
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(200);
                 MyOpponent.move();
 
             }
+            textBox1.Text = "Ready or not, here I come! ";
+            Application.DoEvents();
+            System.Threading.Thread.Sleep(2000);
+
             Hide_button.Visible = false;
+            MoveToANewLocation(FrontYard);
+            Gohere.Visible = true;
+            ExitsComboBox.Visible = true;
+        }
+
+        private void check_button_Click(object sender, EventArgs e)
+        {
+            MyOpponent.Check(currentLocation);
         }
     }
 }
