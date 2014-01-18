@@ -14,5 +14,13 @@ namespace _7LetsBuildAHouseAndHideAndFind
         {
             DoorDescription = doorDescription;
         }
+        public override string Description
+        {
+            get
+            {
+                return base.Description + "You can see " + DoorDescription + ", which leads to the " + DoorLocation.Name +
+                    "\r\n";
+            }
+        }
     }
 }

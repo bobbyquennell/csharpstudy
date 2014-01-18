@@ -14,11 +14,12 @@ namespace _7LetsBuildAHouseAndHideAndFind
         //Outside garden;
         OutsideWithDoor FrontYard, BackYard;
         RoomWithDoor LivingRoom, Kitchen;
-        RoomWithHidingPlace Upstairs_hallway, Master_bedroom, Second_bedroom, Bathroom;
+        RoomWithHidingPlace Upstairs_hallway, Master_bedroom, Second_bedroom, Bathroom, DiningRoom;
         OutsideWithHidingPlace Driveway, Garden;
-        Room DiningRoom, Stairs;
+        Room Stairs;
         Location currentLocation;
         Opponent MyOpponent;
+        int MoveCount, CheckCount;
 
         public Form1()
         {
@@ -34,7 +35,7 @@ namespace _7LetsBuildAHouseAndHideAndFind
 
         private void CreateObjects()
         {
-            DiningRoom = new Room("Dining Room", "a crystal chandelier and flowers");
+            DiningRoom = new RoomWithHidingPlace("Dining Room", "a crystal chandelier and flowers", "an armoire");
             LivingRoom = new RoomWithDoor("Living room", "an antique carpet", "a desk", "an oak door with a brass knob");
             Kitchen = new RoomWithDoor("Kitchen", "Big Kitchen", "microwave oven", "a screen door");
             FrontYard = new OutsideWithDoor("FrontYard", false, "an oak door with a brass knob");
@@ -67,49 +68,52 @@ namespace _7LetsBuildAHouseAndHideAndFind
             LivingRoom.DoorLocation = FrontYard;
             Kitchen.DoorLocation = BackYard;
             BackYard.DoorLocation = Kitchen;
+            MoveCount = 0;
+            CheckCount = 0;
 
             
         }
         private void MoveToANewLocation(Location newLocation)
         {
             currentLocation = newLocation;
-            //clear the olde items with 
-            ExitsComboBox.Items.Clear();
+            ////clear the olde items with 
+            //ExitsComboBox.Items.Clear();
 
-            //initialize the ComboBox list with newlocation's exits.
-            for (int i = 0; i < newLocation.Exits.Length; i++)
-            {
-                ExitsComboBox.Items.Add(newLocation.Exits[i].Name);
-            }
-            //reset the Combo box so it displays the first item in the list.
-            ExitsComboBox.SelectedIndex = 0;
+            ////initialize the ComboBox list with newlocation's exits.
+            //for (int i = 0; i < newLocation.Exits.Length; i++)
+            //{
+            //    ExitsComboBox.Items.Add(newLocation.Exits[i].Name);
+            //}
+            ////reset the Combo box so it displays the first item in the list.
+            //ExitsComboBox.SelectedIndex = 0;
+            RedrawForm();
+            ////update current location's description to the text box.
+            //textBox1.Text = currentLocation.Description;
 
-            //update current location's description to the text box.
-            textBox1.Text = currentLocation.Description;
-
-            //check if the current location has a door
-            if (currentLocation is IHasExteriorDoor)
-            {
-                GoThroughTheDoorButton.Visible = true;
-            }
-            else
-            {
-                GoThroughTheDoorButton.Visible = false;
-            }
-            if (newLocation is IHidingPlace)
-            {
-                check_button.Visible = true;
-                IHidingPlace myHidingPlace = newLocation as IHidingPlace;
-                check_button.Text = "Check " + myHidingPlace.HidingPlaceName.ToString() + "\r\n";
-            }
-            else
-                check_button.Visible = false;
+            ////check if the current location has a door
+            //if (currentLocation is IHasExteriorDoor)
+            //{
+            //    GoThroughTheDoorButton.Visible = true;
+            //}
+            //else
+            //{
+            //    GoThroughTheDoorButton.Visible = false;
+            //}
+            //if (newLocation is IHidingPlace)
+            //{
+            //    check_button.Visible = true;
+            //    IHidingPlace myHidingPlace = newLocation as IHidingPlace;
+            //    check_button.Text = "Check " + myHidingPlace.HidingPlaceName.ToString() + "\r\n";
+            //}
+            //else
+            //    check_button.Visible = false;
 
         }
 
         private void Gohere_Click(object sender, EventArgs e)
         {
             MoveToANewLocation(currentLocation.Exits[ExitsComboBox.SelectedIndex]);
+            MoveCount++;
         }
 
         private void GoThroughTheDoorButton_Click(object sender, EventArgs e)
@@ -119,13 +123,14 @@ namespace _7LetsBuildAHouseAndHideAndFind
             {
                 Door = currentLocation as IHasExteriorDoor;
                 MoveToANewLocation(Door.DoorLocation);
+                MoveCount++;
             }
         }
 
         private void Hide_button_Click(object sender, EventArgs e)
         {
             textBox1.Text = null;
-            for (int n = 1; n <= 10; n++)
+            for (int n = 1; n <= 20; n++)
             {
 
                 textBox1.Text = n.ToString() + "...";
@@ -140,13 +145,96 @@ namespace _7LetsBuildAHouseAndHideAndFind
 
             Hide_button.Visible = false;
             MoveToANewLocation(FrontYard);
-            Gohere.Visible = true;
-            ExitsComboBox.Visible = true;
+            //Gohere.Visible = true;
+            //ExitsComboBox.Visible = true;
+            //redraw the form
         }
 
         private void check_button_Click(object sender, EventArgs e)
         {
-            MyOpponent.Check(currentLocation);
+            if (MyOpponent.Check(currentLocation))
+            {
+                MessageBox.Show("You found me in " + this.MoveCount + " Moves !");
+                //reset the game
+                ResetGame(this.MoveCount);
+                this.CheckCount = 0; ;
+            }
+            else{ 
+                this.CheckCount++;
+            }
         }
+        private void RedrawForm() {
+
+            //clear the olde items with 
+            ExitsComboBox.Items.Clear();
+
+            //initialize the ComboBox list with newlocation's exits.
+            for (int i = 0; i < currentLocation.Exits.Length; i++)
+            {
+                ExitsComboBox.Items.Add(currentLocation.Exits[i].Name);
+            }
+            //reset the Combo box so it displays the first item in the list.
+            ExitsComboBox.SelectedIndex = 0;
+
+            //make the buttons visible or unvisible
+            if (Hide_button.Visible)
+            {
+                Gohere.Visible = false;
+                ExitsComboBox.Visible = false;
+                check_button.Visible = false;
+                GoThroughTheDoorButton.Visible = false;
+                textBox1.Text = null;
+            }
+            else {
+                Gohere.Visible = true;
+                ExitsComboBox.Visible = true;
+                //check if the current location has a door
+                if (currentLocation is IHasExteriorDoor)
+                {
+                    GoThroughTheDoorButton.Visible = true;
+                }
+                else
+                {
+                    GoThroughTheDoorButton.Visible = false;
+                }
+                if (currentLocation is IHidingPlace)
+                {
+                    check_button.Visible = true;
+                    //put the correct text label on the middle button
+                    IHidingPlace myHidingPlace = currentLocation as IHidingPlace;
+                    check_button.Text = "Check " + myHidingPlace.HidingPlaceName.ToString() + "\r\n";
+                }
+                else
+                {
+                    check_button.Visible = false;
+                }
+                //update current location's description to the text box.
+                //if(currentLocation is RoomWithDoor){
+                //    RoomWithDoor myRoomWithADoor = currentLocation as RoomWithDoor;
+                //    textBox1.Text = myRoomWithADoor.Description;
+                //}
+                //else if (currentLocation is OutsideWithDoor)
+                //{
+                //    OutsideWithDoor myOutsideWithADoor = currentLocation as OutsideWithDoor;
+                //    textBox1.Text = myOutsideWithADoor.Description;
+                //}
+                textBox1.Text = currentLocation.Description;
+            }
+            
+
+            
+        }
+        private void ResetGame(int MoveCount) {
+
+            MyOpponent.ResetOpponent(FrontYard);
+            Hide_button.Visible = true;
+            RedrawForm();
+            textBox1.Text = "You found me in " + currentLocation.Name + " with " + MoveCount.ToString() + " move(s). " + "\r\n";
+            textBox1.Text += "You have checked for " + this.CheckCount + " times." + "\r\n";
+            this.MoveCount = 0;
+            this.CheckCount = 0;
+
+        }
+
     }
 }

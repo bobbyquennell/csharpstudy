@@ -13,6 +13,13 @@ namespace _7LetsBuildAHouseAndHideAndFind
         {
             this.HidingPlaceName = HidingPlace;
         }
+        public override string Description
+        {
+            get
+            {
+                return base.Description + " Some one could hide in " + HidingPlaceName + "\r\n";
+            }
+        }
 
     }
 }

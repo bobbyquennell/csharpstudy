@@ -17,7 +17,8 @@ namespace _7LetsBuildAHouseAndHideAndFind
         {
             get
             {
-                return base.Description + "You see " + DoorDescription + ".";
+                return base.Description + "You see " + DoorDescription + ", which leads to the " + DoorLocation.Name + 
+                    "\r\n";
             }
         }
 

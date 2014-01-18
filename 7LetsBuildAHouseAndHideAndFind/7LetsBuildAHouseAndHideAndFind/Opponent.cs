@@ -16,21 +16,31 @@ namespace _7LetsBuildAHouseAndHideAndFind
         }
         public void move()
         {
-            RoomWithDoor myRoomWithADoor;
-            if(myLocation is RoomWithDoor)
+            //RoomWithDoor myRoomWithADoor;
+            if(myLocation is IHasExteriorDoor)
             {
-                myRoomWithADoor = myLocation as RoomWithDoor; 
+                IHasExteriorDoor myPlaceWithADoor = myLocation as IHasExteriorDoor; 
                 if (random.Next(2) == 1)
                 {
                     //go through the door
-                    myLocation = myRoomWithADoor.DoorLocation;
+                    myLocation = myPlaceWithADoor.DoorLocation;
 
                 }
             }
 
-            do{
+            do
+            {
                 myLocation = myLocation.Exits[random.Next(myLocation.Exits.Length)];
-            }while(!(myLocation is IHidingPlace));
+            } while (!(myLocation is IHidingPlace));
+
+            //bool hidden = false;
+            //while (!hidden)
+            //{
+            //    int rand = random.Next(myLocation.Exits.Length);
+            //    myLocation = myLocation.Exits[rand];
+            //    if (myLocation is IHidingPlace)
+            //        hidden = true;
+            //}
         }
         //check
         public bool Check(Location tryLocation){
@@ -38,6 +48,11 @@ namespace _7LetsBuildAHouseAndHideAndFind
                 return true; // found you!
             else
                 return false; // Opponent is not there.
+        }
+        public void ResetOpponent(Location resetLocation) {
+
+            myLocation = resetLocation;
+            random = new Random();
         }
     }
 }
