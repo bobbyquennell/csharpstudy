@@ -1,0 +1,8 @@
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\_8Exercise1AClassHoldsAPlayingCard.Properties.Resources.resources
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\bin\Release\8Exercise1AClassHoldsAPlayingCard.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\bin\Release\8Exercise1AClassHoldsAPlayingCard.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\8Exercise1AClassHoldsAPlayingCard.exe
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\8Exercise1AClassHoldsAPlayingCard.pdb
