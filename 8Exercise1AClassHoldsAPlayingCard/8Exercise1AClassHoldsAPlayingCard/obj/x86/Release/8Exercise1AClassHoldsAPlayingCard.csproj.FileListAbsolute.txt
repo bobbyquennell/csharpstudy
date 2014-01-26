@@ -6,3 +6,4 @@ C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlay
 C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\bin\Release\8Exercise1AClassHoldsAPlayingCard.pdb
 C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\8Exercise1AClassHoldsAPlayingCard.exe
 C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\8Exercise1AClassHoldsAPlayingCard.pdb
+C:\Documents and Settings\bwang\workspace\csharpstudy\8Exercise1AClassHoldsAPlayingCard\8Exercise1AClassHoldsAPlayingCard\obj\x86\Release\_8Exercise1AClassHoldsAPlayingCard.Form1.resources
