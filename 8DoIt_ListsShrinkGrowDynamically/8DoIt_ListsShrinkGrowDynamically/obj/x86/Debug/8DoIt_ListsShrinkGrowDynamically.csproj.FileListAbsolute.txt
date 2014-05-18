@@ -1,0 +1,4 @@
+C:\Users\MacMini\work\GitRepository\csharpstudy\8DoIt_ListsShrinkGrowDynamically\8DoIt_ListsShrinkGrowDynamically\bin\Debug\8DoIt_ListsShrinkGrowDynamically.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8DoIt_ListsShrinkGrowDynamically\8DoIt_ListsShrinkGrowDynamically\bin\Debug\8DoIt_ListsShrinkGrowDynamically.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\8DoIt_ListsShrinkGrowDynamically\8DoIt_ListsShrinkGrowDynamically\obj\x86\Debug\8DoIt_ListsShrinkGrowDynamically.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8DoIt_ListsShrinkGrowDynamically\8DoIt_ListsShrinkGrowDynamically\obj\x86\Debug\8DoIt_ListsShrinkGrowDynamically.pdb
