@@ -1,0 +1,4 @@
+C:\Users\MacMini\work\GitRepository\csharpstudy\8Create5CardsAndSort\8Create5CardsAndSort\bin\Debug\8Create5CardsAndSort.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8Create5CardsAndSort\8Create5CardsAndSort\bin\Debug\8Create5CardsAndSort.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\8Create5CardsAndSort\8Create5CardsAndSort\obj\x86\Debug\8Create5CardsAndSort.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8Create5CardsAndSort\8Create5CardsAndSort\obj\x86\Debug\8Create5CardsAndSort.pdb
