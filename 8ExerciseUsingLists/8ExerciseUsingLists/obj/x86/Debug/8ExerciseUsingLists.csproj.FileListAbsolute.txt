@@ -1,0 +1,7 @@
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\bin\Debug\8ExerciseUsingLists.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\bin\Debug\8ExerciseUsingLists.pdb
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\obj\x86\Debug\_8ExerciseUsingLists.Form1.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\obj\x86\Debug\_8ExerciseUsingLists.Properties.Resources.resources
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\obj\x86\Debug\8ExerciseUsingLists.csproj.GenerateResource.Cache
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\obj\x86\Debug\8ExerciseUsingLists.exe
+C:\Users\MacMini\work\GitRepository\csharpstudy\8ExerciseUsingLists\8ExerciseUsingLists\obj\x86\Debug\8ExerciseUsingLists.pdb
