@@ -1,0 +1,5 @@
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\_8LongExercise_GoFish.Form1.resources
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\_8LongExercise_GoFish.Properties.Resources.resources
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\GenerateResource.write.1.tlog
