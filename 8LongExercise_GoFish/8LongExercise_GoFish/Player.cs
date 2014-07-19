@@ -67,8 +67,9 @@ namespace _8LongExercise_GoFish
             //This is where an opponent asks if I have any cards of a certain value
             //Use Deck.PullOutValues() to pull out the values. Add a line to the TextBox
             //that says, "Joe has 3 sixes" -use the new Card.Plural() static method
-            Deck test = new Deck();
-            return test;
+            Deck cardcheck = cards.PullOutValues(value);
+            this.textBoxOnForm.Text += this.Name + " has " + cardcheck.Count + Card.Plural(value);
+            return cardcheck;
         }
         public void AskForACard(List<Player> players, int myIndex, Deck stock)
         {
