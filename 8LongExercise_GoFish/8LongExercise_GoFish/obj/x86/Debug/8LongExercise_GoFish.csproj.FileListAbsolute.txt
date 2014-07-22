@@ -7,3 +7,10 @@ C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8Long
 C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\bin\Debug\8LongExercise_GoFish.pdb
 C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\8LongExercise_GoFish.exe
 C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\8LongExercise_GoFish.pdb
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\8LongExercise_GoFish.exe
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\8LongExercise_GoFish.pdb
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\bin\Debug\8LongExercise_GoFish.exe
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\bin\Debug\8LongExercise_GoFish.pdb
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\_8LongExercise_GoFish.Form1.resources
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\_8LongExercise_GoFish.Properties.Resources.resources
+C:\Users\bwang\work\GitRepository\csharpstudy\8LongExercise_GoFish\8LongExercise_GoFish\obj\x86\Debug\8LongExercise_GoFish.csproj.GenerateResource.Cache

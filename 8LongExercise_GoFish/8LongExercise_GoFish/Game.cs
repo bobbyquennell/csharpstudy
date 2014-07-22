@@ -115,11 +115,20 @@ namespace _8LongExercise_GoFish
             //up with a list of winners in a string ("Joe and Ed"). If there's one winner,
             //it returns a string like this:" Ed with 3 books". Otherwise it returns a
             // string like this:"A tie between Joe and Bob with 2 books."
-            Dictionary<string, int> winners;
+
+            Dictionary<string, int> winners = new Dictionary<string, int>();
             foreach (Value value in books.Keys)
             {
-                winners.Add(books[value].Name,);
+                string name = books[value].Name;
+                if (winners.ContainsKey(name))
+                    winners[name] += 1;
+                else
+                    winners.Add(books[value].Name, 1);          
             }
+            //foreach (string name in winners.Keys)
+            //{
+            //    winners.c
+            //}
             return "test";
         }
         public IEnumerable<string> GetPlayerCardNames() {
