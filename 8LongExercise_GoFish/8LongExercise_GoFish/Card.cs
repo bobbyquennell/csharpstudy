@@ -28,7 +28,7 @@ namespace _8LongExercise_GoFish
         Queen = 12,
         King = 13,
     }
-    class Card
+    partial class  Card
     {
         public Suit Suit { get; set; }
         public Value Value { get; set; }

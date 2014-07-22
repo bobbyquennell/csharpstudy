@@ -32,6 +32,15 @@ namespace _8LongExercise_GoFish
             // This is where the game starts - this method's only called at the beginning
             // of the game. Shuffle the stock, deal five cards to each player, then use a 
             // foreach loop to call each player's PullOutBooks() method.
+            stock.Shuffle();
+            foreach(Player eachPlayer in players){
+               for(int i = 0; i < 5; i++)
+                   eachPlayer.TakeCard(stock.Deal());
+            }
+            foreach (Player eachPlayer in players)
+            {
+                PullOutBooks(eachPlayer);
+            }
         }
         public bool PlayOneRound(int selectedPlayerCard){
             //Play  one round of the game. The parameter is the card the player selected
@@ -44,19 +53,55 @@ namespace _8LongExercise_GoFish
             //Then check the stock to see if it's out of cards. If it is, reset the 
             //TextBox on the form to say, "The stock is out of cards. Game over!" and return
             //true. Otherwise, the game isn't over yet, so return false.
-            return true;
+            Value value= players[0].Peek(selectedPlayerCard).Value;
+            players[0].AskForACard(players,0, stock, value);
+            foreach (Player player in players)
+            {
+                if(players.IndexOf(player) != 0)
+                    player.AskForACard(players,players.IndexOf(player), stock, value);
+                bool isRunOutofCards = PullOutBooks(player);
+                if (isRunOutofCards)
+                {
+                   for(int i =0; i < 5; i++)
+                       player.TakeCard(stock.Deal());
+                }
+            }
+            players[0].SortHand();
+            if (stock.Count == 0)
+            {
+                this.textBoxOnForm.Text = "The stock is out of cards. Game over! ";
+                return true;
+            }
+            else
+                return false;
         }
         public bool PullOutBooks(Player player)
         {
             //Pull out a player's books. Return true if the player ran out of cards, otherwise
             //return false. Each book is added to the Books dictionary. A player runs out of 
             // cards when he's used all of his cards to make books-and he wins the game.
-            return true;
+            List<Value> BooksOfAPlayer = (List<Value>)player.PullOutBooks();
+            if (BooksOfAPlayer.Count > 0)
+            {
+                foreach (Value book in BooksOfAPlayer)
+                {
+                    books.Add(book, player);
+                }
+            }
+            if (player.CardCount == 0)
+                return true;
+            else
+                return false;
         }
         public string DescribeBooks(){
             // Return a long string that describes everyone's books by looking at the Books.
             //dictionary:" Joe has a book of sixes. (line break) Ed has a book of Aces."
-            return "test";
+            string Decription = "";
+            foreach(Value value in books.Keys)
+            {
+                Decription += books[value].Name + " has a book of " + Card.Plural(value) + "\n";
+            }
+            return Decription;
         }
         public string GetWinnerName()
         {
@@ -70,6 +115,11 @@ namespace _8LongExercise_GoFish
             //up with a list of winners in a string ("Joe and Ed"). If there's one winner,
             //it returns a string like this:" Ed with 3 books". Otherwise it returns a
             // string like this:"A tie between Joe and Bob with 2 books."
+            Dictionary<string, int> winners;
+            foreach (Value value in books.Keys)
+            {
+                winners.Add(books[value].Name,);
+            }
             return "test";
         }
         public IEnumerable<string> GetPlayerCardNames() {

@@ -22,6 +22,7 @@ namespace _8LongExercise_GoFish
             this.name = name;
             this.random = random;
             this.textBoxOnForm = textBoxOnForm;
+            this.cards = new Deck();//??????
             this.textBoxOnForm.Text += this.name + " has just joined the game\n";
         }
         public IEnumerable<Value> PullOutBooks() {
@@ -75,6 +76,7 @@ namespace _8LongExercise_GoFish
         {
             //Here's an overloaded version of AskForACard() -choose a random value
             //from the deck using GetRandomValue() and ask for it using AskForACard()
+            AskForACard(players, myIndex, stock, GetRandomValue());
         }
         public void AskForACard(List<Player> players, int myIndex, Deck stock, Value value)
         {
@@ -85,26 +87,47 @@ namespace _8LongExercise_GoFish
             // Keep track of how many cards were added. If there weren't any, you'll need 
             // to deal yourself a card from the stock (which was also passed as a parameter),
             // add you'll have to add a line to the TextBox: "Joe had to draw from the stock"
+            int TotalCount = 0;
+            int PlayerIndex = 0;
+            this.textBoxOnForm.Text += this.Name + " asks if anyone has a " + value.ToString();
+            foreach (Player PlayerToAsk in players)
+            {
+                if (myIndex != PlayerIndex)
+                {
+
+                    Deck getCards = DoYouHaveAny(value);
+                    if (getCards.Count > 0)
+                    {
+                        TotalCount += getCards.Count;
+                        for (int i = getCards.Count; i > 0; i--)
+                            cards.Add(getCards.Deal(i - 1));
+                    }
+                }
+                PlayerIndex++;
+                
+            }
+            if (TotalCount == 0)
+            {
+                cards.Add(stock.Deal());
+                this.textBoxOnForm.Text += this.Name + " had to draw from the stock";
+            }
+                
         }
         //Here's a property and a few short method that were already written for you
         public int CardCount { get { return cards.Count; } }
-        public void TakeCard(Card card) { cards.Add(card); }
+        public void TakeCard(Card cardToTake) { cards.Add(cardToTake); }
         public IEnumerable<string> GetCardNames() { return cards.GetCardName(); }
         public Card Peek(int cardNumber) { return cards.Peek(cardNumber); }
         public void SortHand() { cards.SortByValue(); }
-        public partial class Card
+    }
+    public partial class Card
+    {
+        public static string Plural(Value value)
         {
-            public static string Plural(Value value)
-            {
-                if (value == Value.Six)
-                    return "Sixes";
-                else
-                    return value.ToString() + "s";
-            }
+            if (value == Value.Six)
+                return "Sixes";
+            else
+                return value.ToString() + "s";
         }
-
-
-
-
     }
 }

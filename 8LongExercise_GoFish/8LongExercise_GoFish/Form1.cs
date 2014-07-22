@@ -57,9 +57,7 @@ namespace _8LongExercise_GoFish
 
 
         }
-        public void SortByValue(){
-            Card.Sort(new CardComparer_byValue());
-        }
+
 		 
 
     }
