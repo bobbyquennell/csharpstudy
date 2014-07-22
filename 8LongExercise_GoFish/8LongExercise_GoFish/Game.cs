@@ -69,7 +69,7 @@ namespace _8LongExercise_GoFish
             players[0].SortHand();
             if (stock.Count == 0)
             {
-                this.textBoxOnForm.Text = "The stock is out of cards. Game over! ";
+                this.textBoxOnForm.Text = "The stock is out of cards. Game over!\n";
                 return true;
             }
             else
@@ -115,7 +115,7 @@ namespace _8LongExercise_GoFish
             //up with a list of winners in a string ("Joe and Ed"). If there's one winner,
             //it returns a string like this:" Ed with 3 books". Otherwise it returns a
             // string like this:"A tie between Joe and Bob with 2 books."
-
+            string returnValue = "";
             Dictionary<string, int> winners = new Dictionary<string, int>();
             foreach (Value value in books.Keys)
             {
@@ -125,11 +125,37 @@ namespace _8LongExercise_GoFish
                 else
                     winners.Add(books[value].Name, 1);          
             }
-            //foreach (string name in winners.Keys)
-            //{
-            //    winners.c
-            //}
-            return "test";
+            List<string>trueWinner = new List<string>();
+            foreach (string name in winners.Keys)
+            {
+                if (trueWinner.Count == 0)
+                    trueWinner.Add(name);
+                else
+                {
+                    if (winners[name] > winners[trueWinner[0]])
+                    {
+                        trueWinner.RemoveRange(0, trueWinner.Count);
+                        trueWinner.Add(name);
+                    }
+                    else if (winners[name] == winners[trueWinner[0]])
+                        trueWinner.Add(name);
+                }
+
+            }
+            if (trueWinner.Count == 1)
+               returnValue += trueWinner[0] + " with " +  winners[trueWinner[0]] + " books\n";
+            else
+                for(int i = 0;i < trueWinner.Count; i++)
+                {
+                    if (i == 0)
+                        returnValue = trueWinner[0];
+                    else
+
+                        returnValue += " and " + trueWinner[i];
+                }
+            returnValue += " with " + winners[trueWinner[0]] + " books\n";
+
+            return returnValue;
         }
         public IEnumerable<string> GetPlayerCardNames() {
             return players[0].GetCardNames();
@@ -146,7 +172,7 @@ namespace _8LongExercise_GoFish
                     description += " cards." + Environment.NewLine;
             }
 
-            description += "The stock has " + stock.Count + " cards Left.";
+            description += "The stock has " + stock.Count + " cards Left.\n";
             return description;
         }
 
