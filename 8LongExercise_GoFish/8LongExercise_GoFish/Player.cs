@@ -22,7 +22,7 @@ namespace _8LongExercise_GoFish
             this.name = name;
             this.random = random;
             this.textBoxOnForm = textBoxOnForm;
-            this.cards = new Deck();//??????
+            this.cards = new Deck(new List<Card>());
             this.textBoxOnForm.Text += this.name + " has just joined the game\n";
         }
         public IEnumerable<Value> PullOutBooks() {

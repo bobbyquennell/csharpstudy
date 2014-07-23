@@ -104,10 +104,9 @@
             // 
             // buttonAsk
             // 
-            this.buttonAsk.Enabled = false;
             this.buttonAsk.Location = new System.Drawing.Point(620, 642);
             this.buttonAsk.Name = "buttonAsk";
-            this.buttonAsk.Size = new System.Drawing.Size(194, 23);
+            this.buttonAsk.Size = new System.Drawing.Size(194, 39);
             this.buttonAsk.TabIndex = 8;
             this.buttonAsk.Text = "Ask for a card";
             this.buttonAsk.UseVisualStyleBackColor = true;
@@ -124,10 +123,9 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Enabled = false;
             this.buttonStart.Location = new System.Drawing.Point(221, 76);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(206, 28);
+            this.buttonStart.Size = new System.Drawing.Size(206, 38);
             this.buttonStart.TabIndex = 10;
             this.buttonStart.Text = "Start the game!";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -137,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(940, 755);
+            this.ClientSize = new System.Drawing.Size(978, 735);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonAsk);
@@ -148,7 +146,6 @@
             this.Controls.Add(this.textName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listHand);
-            this.Enabled = false;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
