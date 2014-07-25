@@ -88,14 +88,14 @@ namespace _8LongExercise_GoFish
             // to deal yourself a card from the stock (which was also passed as a parameter),
             // add you'll have to add a line to the TextBox: "Joe had to draw from the stock"
             int TotalCount = 0;
-            int PlayerIndex = 0;
-            this.textBoxOnForm.Text += this.Name + " asks if anyone has a " + value.ToString();
+            //int PlayerIndex = 0;
+            this.textBoxOnForm.Text += this.Name + " asks if anyone has a " + value.ToString() + "\n";
             foreach (Player PlayerToAsk in players)
             {
-                if (myIndex != PlayerIndex)
+                if (myIndex != players.IndexOf(PlayerToAsk))
                 {
 
-                    Deck getCards = DoYouHaveAny(value);
+                    Deck getCards = PlayerToAsk.DoYouHaveAny(value);
                     if (getCards.Count > 0)
                     {
                         TotalCount += getCards.Count;
@@ -103,7 +103,6 @@ namespace _8LongExercise_GoFish
                             cards.Add(getCards.Deal(i - 1));
                     }
                 }
-                PlayerIndex++;
                 
             }
             if (TotalCount == 0)

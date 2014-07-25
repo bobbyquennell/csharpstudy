@@ -14,9 +14,6 @@ namespace _8LongExercise_GoFish
         public Form1()
         {
             InitializeComponent();
-            buttonStart.Enabled = true;
-            textName.Enabled = true;
-            buttonAsk.Enabled = true;
         }
         private Game game;
 

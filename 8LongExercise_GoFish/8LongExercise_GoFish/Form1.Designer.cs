@@ -60,7 +60,6 @@
             // 
             // textName
             // 
-            this.textName.Enabled = false;
             this.textName.Location = new System.Drawing.Point(45, 76);
             this.textName.Name = "textName";
             this.textName.Size = new System.Drawing.Size(170, 28);
