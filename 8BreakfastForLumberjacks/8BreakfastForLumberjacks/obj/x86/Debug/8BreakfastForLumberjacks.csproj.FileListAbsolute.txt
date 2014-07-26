@@ -1,9 +1,0 @@
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\bin\Debug\8BreakfastForLumberjacks.exe
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\bin\Debug\8BreakfastForLumberjacks.pdb
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\_8BreakfastForLumberjacks.Form1.resources
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\_8BreakfastForLumberjacks.Properties.Resources.resources
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\8BreakfastForLumberjacks.exe
-C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\8BreakfastForLumberjacks\8BreakfastForLumberjacks\obj\x86\Debug\8BreakfastForLumberjacks.pdb
