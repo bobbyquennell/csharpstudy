@@ -154,7 +154,7 @@ namespace _8LongExercise_GoFish
                 for(int i = 0;i < trueWinner.Count; i++)
                 {
                     if (i == 0)
-                        returnValue = trueWinner[0];
+                        returnValue = "A tie between " + trueWinner[0];
                     else
 
                         returnValue += " and " + trueWinner[i];
