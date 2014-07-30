@@ -24,6 +24,23 @@ namespace _9TheDiabolicalPlanOfSwindler
             }
             sw.Close();
 
+            StreamReader reader = new StreamReader(@"c:\Test\secret_plan.txt");
+            StreamWriter writer = new StreamWriter(@"c:\Test\emailToCaptainAmazing.txt");
+            writer.WriteLine("To: CaptainAmazing@objectiville.net");
+            writer.WriteLine("From: Commissioner@objectiville.net");
+            writer.WriteLine("Subject: Can you save the day...again?");
+            writer.WriteLine();
+            writer.WriteLine("We've discovered the Swindler's plane:");
+            while (!reader.EndOfStream)
+            {
+                string lineFromThePlan = reader.ReadLine();
+                writer.WriteLine("The plan -> " + lineFromThePlan);
+            }
+            writer.WriteLine();
+            writer.WriteLine("Can you help us?");
+            writer.Close();
+            reader.Close();
+
         }
     }
 }
