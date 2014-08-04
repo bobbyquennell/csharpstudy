@@ -23,7 +23,7 @@ namespace _8LongExercise_GoFish
             this.random = random;
             this.textBoxOnForm = textBoxOnForm;
             this.cards = new Deck(new List<Card>());
-            this.textBoxOnForm.Text += this.name + " has just joined the game\n";
+            this.textBoxOnForm.Text += this.name + " has just joined the game\r\n";
         }
         public IEnumerable<Value> PullOutBooks() {
             List<Value> books = new List<Value>();
@@ -69,7 +69,11 @@ namespace _8LongExercise_GoFish
             //Use Deck.PullOutValues() to pull out the values. Add a line to the TextBox
             //that says, "Joe has 3 sixes" -use the new Card.Plural() static method
             Deck cardcheck = cards.PullOutValues(value);
-            this.textBoxOnForm.Text += this.Name + " has " + cardcheck.Count + Card.Plural(value);
+            if(cardcheck.Count > 1)
+                this.textBoxOnForm.Text += this.Name + " has " + cardcheck.Count + " " + Card.Plural(value) + "\r\n";
+            else
+                this.textBoxOnForm.Text += this.Name + " has " + cardcheck.Count + " " + value + "\r\n";
+
             return cardcheck;
         }
         public void AskForACard(List<Player> players, int myIndex, Deck stock)
@@ -89,7 +93,7 @@ namespace _8LongExercise_GoFish
             // add you'll have to add a line to the TextBox: "Joe had to draw from the stock"
             int TotalCount = 0;
             //int PlayerIndex = 0;
-            this.textBoxOnForm.Text += this.Name + " asks if anyone has a " + value.ToString() + "\n";
+            this.textBoxOnForm.Text += this.Name + " asks if anyone has a " + value.ToString() + "\r\n";
             foreach (Player PlayerToAsk in players)
             {
                 if (myIndex != players.IndexOf(PlayerToAsk))
@@ -107,8 +111,9 @@ namespace _8LongExercise_GoFish
             }
             if (TotalCount == 0)
             {
-                cards.Add(stock.Deal());
-                this.textBoxOnForm.Text += this.Name + " had to draw from the stock";
+                if(stock.Count > 0)
+                    cards.Add(stock.Deal());
+                this.textBoxOnForm.Text += this.Name + " had to draw from the stock" + "\r\n";
             }
                 
         }

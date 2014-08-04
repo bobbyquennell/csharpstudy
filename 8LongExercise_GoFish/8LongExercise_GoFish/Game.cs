@@ -12,6 +12,7 @@ namespace _8LongExercise_GoFish
         private Dictionary<Value, Player> books;
         private Deck stock;
         private TextBox textBoxOnForm;
+        private int roundOfGame = 0;
         public Game(string playerName, IEnumerable<string> opponentNames, TextBox textBoxOnForm)
         {
             Random random = new Random();
@@ -53,23 +54,28 @@ namespace _8LongExercise_GoFish
             //Then check the stock to see if it's out of cards. If it is, reset the 
             //TextBox on the form to say, "The stock is out of cards. Game over!" and return
             //true. Otherwise, the game isn't over yet, so return false.
+            roundOfGame++;
+            this.textBoxOnForm.Text += "********" + " Round " + roundOfGame + " ********\r\n";
             Value value= players[0].Peek(selectedPlayerCard).Value;
             players[0].AskForACard(players,0, stock, value);
             foreach (Player player in players)
             {
                 if(players.IndexOf(player) != 0)
-                    player.AskForACard(players,players.IndexOf(player), stock, value);
+                    player.AskForACard(players, players.IndexOf(player), stock);
                 bool isRunOutofCards = PullOutBooks(player);
                 if (isRunOutofCards)
                 {
-                   for(int i =0; i < 5; i++)
-                       player.TakeCard(stock.Deal());
+                    for (int i = 0; i < 5; i++)
+                    {     
+                        if (stock.Count > 0)
+                            player.TakeCard(stock.Deal());
+                    }
                 }
             }
             players[0].SortHand();
             if (stock.Count == 0)
             {
-                this.textBoxOnForm.Text = "The stock is out of cards. Game over!\n";
+                this.textBoxOnForm.Text = "The stock is out of cards. Game over!\r\n";
                 return true;
             }
             else
@@ -99,7 +105,7 @@ namespace _8LongExercise_GoFish
             string Decription = "";
             foreach(Value value in books.Keys)
             {
-                Decription += books[value].Name + " has a book of " + Card.Plural(value) + "\n";
+                Decription += books[value].Name + " has a book of " + Card.Plural(value) + "\r\n";
             }
             return Decription;
         }
@@ -143,17 +149,17 @@ namespace _8LongExercise_GoFish
 
             }
             if (trueWinner.Count == 1)
-               returnValue += trueWinner[0] + " with " +  winners[trueWinner[0]] + " books\n";
+               returnValue += trueWinner[0] + " with " +  winners[trueWinner[0]] + " books\r\n";
             else
                 for(int i = 0;i < trueWinner.Count; i++)
                 {
                     if (i == 0)
-                        returnValue = trueWinner[0];
+                        returnValue = "A tie between " + trueWinner[0];
                     else
 
                         returnValue += " and " + trueWinner[i];
                 }
-            returnValue += " with " + winners[trueWinner[0]] + " books\n";
+            returnValue += " with " + winners[trueWinner[0]] + " books\r\n";
 
             return returnValue;
         }
@@ -172,7 +178,7 @@ namespace _8LongExercise_GoFish
                     description += " cards." + Environment.NewLine;
             }
 
-            description += "The stock has " + stock.Count + " cards Left.\n";
+            description += "The stock has " + stock.Count + " cards Left.\r\n";
             return description;
         }
 

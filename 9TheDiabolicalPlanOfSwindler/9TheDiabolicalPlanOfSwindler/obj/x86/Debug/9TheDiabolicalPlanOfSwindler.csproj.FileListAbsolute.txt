@@ -1,0 +1,5 @@
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\9TheDiabolicalPlanOfSwindler\9TheDiabolicalPlanOfSwindler\bin\Debug\9TheDiabolicalPlanOfSwindler.exe
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\9TheDiabolicalPlanOfSwindler\9TheDiabolicalPlanOfSwindler\bin\Debug\9TheDiabolicalPlanOfSwindler.pdb
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\9TheDiabolicalPlanOfSwindler\9TheDiabolicalPlanOfSwindler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\9TheDiabolicalPlanOfSwindler\9TheDiabolicalPlanOfSwindler\obj\x86\Debug\9TheDiabolicalPlanOfSwindler.exe
+C:\Users\LogicPlatypus\work\GitRepository\csharpstudy\9TheDiabolicalPlanOfSwindler\9TheDiabolicalPlanOfSwindler\obj\x86\Debug\9TheDiabolicalPlanOfSwindler.pdb

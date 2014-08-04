@@ -35,7 +35,7 @@ namespace _8LongExercise_GoFish
             foreach (String cardName in game.GetPlayerCardNames())
                 listHand.Items.Add(cardName);
             textBooks.Text = game.DescribeBooks();
-            textProgress.Text = game.DescribePlayerHands();
+            textProgress.Text += game.DescribePlayerHands();
             textProgress.SelectionStart = textProgress.Text.Length;
             textProgress.ScrollToCaret();
         }
@@ -48,8 +48,8 @@ namespace _8LongExercise_GoFish
                 return;
             }
             if(game.PlayOneRound(listHand.SelectedIndex)){
-                textProgress.Text += "The winner is ..." + game.GetWinnerName();
-                textBooks.Text = game.DescribeBooks();
+                textProgress.Text += "The winner is ..." + game.GetWinnerName() + "\r\n";
+                textBooks.Text = game.DescribeBooks() + "\r\n";
                 buttonAsk.Enabled = false;
             }
             else
