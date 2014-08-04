@@ -15,5 +15,17 @@ namespace _9ExcuseManager
         {
             InitializeComponent();
         }
+
+        private void buttonFolder_Click(object sender, EventArgs e)
+        {
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+            if ((result == DialogResult.OK) && (folderBrowserDialog1.SelectedPath != ""))
+            {
+                buttonOpen.Enabled = true;
+                buttonSave.Enabled = true;
+                buttonRandom.Enabled = true;
+            }
+
+        }
     }
 }
