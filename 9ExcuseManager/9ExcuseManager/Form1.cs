@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace _9ExcuseManager
 {
@@ -27,5 +28,16 @@ namespace _9ExcuseManager
             }
 
         }
-    }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            DialogResult result = saveFileDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                SaveTheFile(saveFileDialog1.FileName);
+
+            }
+
+        }
+    } 
 }
