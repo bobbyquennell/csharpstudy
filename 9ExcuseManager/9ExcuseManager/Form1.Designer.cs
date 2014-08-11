@@ -31,8 +31,8 @@
             this.lableExcuse = new System.Windows.Forms.Label();
             this.labelResults = new System.Windows.Forms.Label();
             this.labelLastUsed = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxExcuse = new System.Windows.Forms.TextBox();
+            this.textBoxResults = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.labelFileDate = new System.Windows.Forms.Label();
@@ -73,19 +73,21 @@
             this.labelLastUsed.TabIndex = 2;
             this.labelLastUsed.Text = "Last Used";
             // 
-            // textBox1
+            // textBoxExcuse
             // 
-            this.textBox1.Location = new System.Drawing.Point(98, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.textBoxExcuse.Location = new System.Drawing.Point(98, 24);
+            this.textBoxExcuse.Name = "textBoxExcuse";
+            this.textBoxExcuse.Size = new System.Drawing.Size(100, 20);
+            this.textBoxExcuse.TabIndex = 3;
+            this.textBoxExcuse.TextChanged += new System.EventHandler(this.textBoxExcuse_TextChanged);
             // 
-            // textBox2
+            // textBoxResults
             // 
-            this.textBox2.Location = new System.Drawing.Point(98, 51);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.textBoxResults.Location = new System.Drawing.Point(98, 51);
+            this.textBoxResults.Name = "textBoxResults";
+            this.textBoxResults.Size = new System.Drawing.Size(100, 20);
+            this.textBoxResults.TabIndex = 4;
+            this.textBoxResults.TextChanged += new System.EventHandler(this.textBoxResults_TextChanged);
             // 
             // textBox3
             // 
@@ -100,6 +102,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 6;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // labelFileDate
             // 
@@ -140,6 +143,7 @@
             this.buttonOpen.TabIndex = 11;
             this.buttonOpen.Text = "Open";
             this.buttonOpen.UseVisualStyleBackColor = true;
+            this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
             // 
             // buttonRandom
             // 
@@ -176,8 +180,8 @@
             this.Controls.Add(this.labelFileDate);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxResults);
+            this.Controls.Add(this.textBoxExcuse);
             this.Controls.Add(this.labelLastUsed);
             this.Controls.Add(this.labelResults);
             this.Controls.Add(this.lableExcuse);
@@ -193,8 +197,8 @@
         private System.Windows.Forms.Label lableExcuse;
         private System.Windows.Forms.Label labelResults;
         private System.Windows.Forms.Label labelLastUsed;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxExcuse;
+        private System.Windows.Forms.TextBox textBoxResults;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label labelFileDate;
