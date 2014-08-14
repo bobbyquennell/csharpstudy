@@ -34,13 +34,13 @@
             this.textBoxExcuse = new System.Windows.Forms.TextBox();
             this.textBoxResults = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.labelFileDate = new System.Windows.Forms.Label();
+            this.dateTimePickerLastUsed = new System.Windows.Forms.DateTimePicker();
+            this.labelTitleofFileDate = new System.Windows.Forms.Label();
             this.buttonFolder = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonOpen = new System.Windows.Forms.Button();
             this.buttonRandom = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelFileDate = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -96,22 +96,22 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 5;
             // 
-            // dateTimePicker1
+            // dateTimePickerLastUsed
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(98, 82);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTimePickerLastUsed.Location = new System.Drawing.Point(98, 82);
+            this.dateTimePickerLastUsed.Name = "dateTimePickerLastUsed";
+            this.dateTimePickerLastUsed.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePickerLastUsed.TabIndex = 6;
+            this.dateTimePickerLastUsed.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // labelFileDate
+            // labelTitleofFileDate
             // 
-            this.labelFileDate.AutoSize = true;
-            this.labelFileDate.Location = new System.Drawing.Point(12, 115);
-            this.labelFileDate.Name = "labelFileDate";
-            this.labelFileDate.Size = new System.Drawing.Size(49, 13);
-            this.labelFileDate.TabIndex = 7;
-            this.labelFileDate.Text = "File Date";
+            this.labelTitleofFileDate.AutoSize = true;
+            this.labelTitleofFileDate.Location = new System.Drawing.Point(12, 115);
+            this.labelTitleofFileDate.Name = "labelTitleofFileDate";
+            this.labelTitleofFileDate.Size = new System.Drawing.Size(49, 13);
+            this.labelTitleofFileDate.TabIndex = 7;
+            this.labelTitleofFileDate.Text = "File Date";
             // 
             // buttonFolder
             // 
@@ -154,14 +154,15 @@
             this.buttonRandom.TabIndex = 12;
             this.buttonRandom.Text = "Random";
             this.buttonRandom.UseVisualStyleBackColor = true;
+            this.buttonRandom.Click += new System.EventHandler(this.buttonRandom_Click);
             // 
-            // label1
+            // labelFileDate
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(98, 115);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 26);
-            this.label1.TabIndex = 13;
+            this.labelFileDate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelFileDate.Location = new System.Drawing.Point(98, 115);
+            this.labelFileDate.Name = "labelFileDate";
+            this.labelFileDate.Size = new System.Drawing.Size(200, 26);
+            this.labelFileDate.TabIndex = 13;
             // 
             // openFileDialog1
             // 
@@ -172,13 +173,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(471, 262);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelFileDate);
             this.Controls.Add(this.buttonRandom);
             this.Controls.Add(this.buttonOpen);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.buttonFolder);
-            this.Controls.Add(this.labelFileDate);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.labelTitleofFileDate);
+            this.Controls.Add(this.dateTimePickerLastUsed);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBoxResults);
             this.Controls.Add(this.textBoxExcuse);
@@ -200,13 +201,13 @@
         private System.Windows.Forms.TextBox textBoxExcuse;
         private System.Windows.Forms.TextBox textBoxResults;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label labelFileDate;
+        private System.Windows.Forms.DateTimePicker dateTimePickerLastUsed;
+        private System.Windows.Forms.Label labelTitleofFileDate;
         private System.Windows.Forms.Button buttonFolder;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Button buttonRandom;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelFileDate;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;

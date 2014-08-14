@@ -1,0 +1,7 @@
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\bin\Release\9ExcuseManager.exe
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\bin\Release\9ExcuseManager.pdb
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Release\_9ExcuseManager.Form1.resources
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Release\_9ExcuseManager.Properties.Resources.resources
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Release\9ExcuseManager.csproj.GenerateResource.Cache
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Release\9ExcuseManager.exe
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Release\9ExcuseManager.pdb

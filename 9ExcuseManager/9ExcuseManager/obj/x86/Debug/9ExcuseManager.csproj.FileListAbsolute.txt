@@ -5,3 +5,4 @@ C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\
 C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Debug\9ExcuseManager.csproj.GenerateResource.Cache
 C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Debug\9ExcuseManager.exe
 C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Debug\9ExcuseManager.pdb
+C:\Users\bwang\work\GitRepository\csharpstudy\9ExcuseManager\9ExcuseManager\obj\x86\Debug\9ExcuseManager.csprojResolveAssemblyReference.cache
