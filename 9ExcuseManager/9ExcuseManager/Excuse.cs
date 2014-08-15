@@ -23,17 +23,17 @@ namespace _9ExcuseManager
         { 
             Open(Excusepath);
         }
-        public void Open(string Excusepath)
+        public void Open(string FileName)
         {
-            this.excusepath = Excusepath;
+            this.excusepath = FileName;
             //way1:classical 
-            //StreamReader myReader = new StreamReader(Excusepath);
+            //StreamReader myReader = new StreamReader(FileName);
             //this.description = myReader.ReadLine();
             //this.results = myReader.ReadLine();
             //this.lastused = Convert.ToDateTime(myReader.ReadLine());
             //myReader.Close();
             //way2:Avoid file system errors with using statement
-            using (StreamReader myReader = new StreamReader(Excusepath))
+            using (StreamReader myReader = new StreamReader(FileName))
             {
                 this.description = myReader.ReadLine();
                 this.results = myReader.ReadLine();
@@ -42,6 +42,7 @@ namespace _9ExcuseManager
         }
         public void Save(string FileName)
         {
+            this.excusepath = FileName;
             //way1:classical
             //StreamWriter myWriter = new StreamWriter(@FileName,false);
             //myWriter.WriteLine(this.description);

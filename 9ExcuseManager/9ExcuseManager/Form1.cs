@@ -40,8 +40,8 @@ namespace _9ExcuseManager
         private void buttonSave_Click(object sender, EventArgs e)
         {
             saveFileDialog1.InitialDirectory = workingpath;
-            saveFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*|";
-            saveFileDialog1.FileName = textBoxExcuse.Text + ".txt";
+            saveFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            //saveFileDialog1.FileName = textBoxExcuse.Text + ".txt";
             DialogResult result = saveFileDialog1.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -68,7 +68,7 @@ namespace _9ExcuseManager
         private void buttonOpen_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = workingpath;
-            openFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*|";
+            openFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
             //openFileDialog1.FileName = textBoxExcuse.Text + ".txt";
             DialogResult result = openFileDialog1.ShowDialog();
             DialogResult MessageResult = System.Windows.Forms.DialogResult.No;
@@ -79,7 +79,7 @@ namespace _9ExcuseManager
                     MessageResult= MessageBox.Show("The current excuse has not been saved, Continue?","Warning",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
                 }
                 if((MessageResult == DialogResult.Yes)||(this.formChanged == false)){
-                    CurrentExcuse = new Excuse(workingpath);
+                    CurrentExcuse = new Excuse(openFileDialog1.FileName);
                     CurrentExcuse.Open(openFileDialog1.FileName);
                     //textBoxExcuse.Text = CurrentExcuse.description;
                     //textBoxResults.Text = CurrentExcuse.results;
@@ -125,6 +125,7 @@ namespace _9ExcuseManager
             }
             else
                 this.Text = "Excuse Manager*";
+                
             this.formChanged = changed;
         }
 
